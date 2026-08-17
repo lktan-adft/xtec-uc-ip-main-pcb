@@ -12,3 +12,8 @@
 # too large for any PR line diff. Keep locally or attach to the release
 # instead of committing; see changelog/README.md.
 changelog/gerber_*/
+
+# tools/gerber-diff/run.sh output — regenerable PNG renders/diffs, not
+# source. Attach relevant images to the PR manually if needed instead of
+# committing the whole render folder.
+diff_output/
