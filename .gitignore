@@ -1,0 +1,14 @@
+# KiCad local file-history backups — not project history, git is.
+.history/
+**/.history/
+
+# KiCad lock/backup files
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*~
+
+# Raw old-vs-new gerber diff snapshots (millions of lines of generated
+# Gerber/drill text, regenerable from the .kicad_pcb at each revision) —
+# too large for any PR line diff. Keep locally or attach to the release
+# instead of committing; see changelog/README.md.
+changelog/gerber_*/

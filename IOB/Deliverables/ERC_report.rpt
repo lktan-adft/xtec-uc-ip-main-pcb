@@ -1,0 +1,3292 @@
+ERC report (2026-08-13T16:16:16, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /SL1230IO V3.2.1/
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(1250 mils, 2550 mils): Symbol J48 [Conn_01x12]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(1250 mils, 4250 mils): Symbol J10 [Conn_01x12]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(1250 mils, 5600 mils): Symbol J7 [Conn_01x06]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(1250 mils, 7500 mils): Symbol J31 [Conn_01x12]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2700 mils, 2550 mils): Symbol J51 [Conn_01x12]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2700 mils, 4250 mils): Symbol J5 [Conn_01x12]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2700 mils, 5900 mils): Symbol J12 [Conn_01x12]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4700 mils, 5850 mils): Symbol J37 [Conn_01x10]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4700 mils, 7300 mils): Symbol J33 [Conn_01x06]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(5650 mils, 8700 mils): Symbol J9 [Conn_02x07_Odd_Even]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(6650 mils, 5850 mils): Symbol J38 [Conn_01x10]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(700 mils, 4050 mils): Symbol C2 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(900 mils, 4050 mils): Symbol C20 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(1100 mils, 4050 mils): Symbol C21 [C]
+[four_way_junction]: Four items connected at 279400, 1143000
+    ; warning
+    @(1100 mils, 4500 mils): Horizontal Wire, length 200 mils
+    @(1100 mils, 4200 mils): Vertical Wire, length 300 mils
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(1250 mils, 6900 mils): Symbol C155 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(1300 mils, 4050 mils): Symbol C22 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(1400 mils, 2300 mils): Symbol C149 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(1500 mils, 4050 mils): Symbol C23 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(1700 mils, 4050 mils): Symbol C24 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(1700 mils, 6650 mils): Symbol LB12 [FerriteBead]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(1900 mils, 2050 mils): Symbol LB9 [FerriteBead]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2050 mils, 8850 mils): Symbol R162 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2250 mils, 4300 mils): Symbol R159 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2500 mils, 7450 mils): Symbol R273 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2650 mils, 6650 mils): Symbol R272 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2800 mils, 2850 mils): Symbol R256 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2850 mils, 8750 mils): Symbol U34 [LM2902]
+[lib_symbol_mismatch]: Symbol 'LM2902' doesn't match copy in library 'Amplifier_Operational'
+    ; warning
+    @(2850 mils, 8750 mils): Symbol U34 [LM2902]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(3000 mils, 2050 mils): Symbol R219 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(3000 mils, 4150 mils): Symbol U34 [LM2902]
+[lib_symbol_mismatch]: Symbol 'LM2902' doesn't match copy in library 'Amplifier_Operational'
+    ; warning
+    @(3000 mils, 4150 mils): Symbol U34 [LM2902]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(3050 mils, 7550 mils): Symbol Q19 [AO3400A]
+[lib_symbol_mismatch]: Symbol 'AO3400A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(3050 mils, 7550 mils): Symbol Q19 [AO3400A]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(3200 mils, 2950 mils): Symbol Q9 [AO3400A]
+[lib_symbol_mismatch]: Symbol 'AO3400A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(3200 mils, 2950 mils): Symbol Q9 [AO3400A]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(3700 mils, 8750 mils): Symbol R274 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(3900 mils, 4150 mils): Symbol R257 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4050 mils, 9100 mils): Symbol R275 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4100 mils, 6750 mils): Symbol Q17 [AO3401A]
+[lib_symbol_mismatch]: Symbol 'AO3401A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(4100 mils, 6750 mils): Symbol Q17 [AO3401A]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4100 mils, 7250 mils): Symbol R276 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4250 mils, 4500 mils): Symbol R258 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4300 mils, 2150 mils): Symbol Q16 [AO3401A]
+[lib_symbol_mismatch]: Symbol 'AO3401A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(4300 mils, 2150 mils): Symbol Q16 [AO3401A]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4300 mils, 2700 mils): Symbol R259 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4300 mils, 7900 mils): Symbol Q18 [Q_NPN]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4500 mils, 3300 mils): Symbol Q8 [Q_NPN]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4550 mils, 7050 mils): Symbol R277 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4600 mils, 9000 mils): Symbol D65 [BAV99]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4750 mils, 2450 mils): Symbol R260 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4800 mils, 4400 mils): Symbol D63 [BAV99]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(5000 mils, 7900 mils): Symbol R278 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(5050 mils, 3300 mils): Symbol R261 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(6450 mils, 2350 mils): Symbol C150 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(6450 mils, 6900 mils): Symbol C157 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(6900 mils, 2100 mils): Symbol LB10 [FerriteBead]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(6900 mils, 6650 mils): Symbol LB13 [FerriteBead]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(7300 mils, 4350 mils): Symbol R160 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(7300 mils, 8950 mils): Symbol R163 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(7700 mils, 2900 mils): Symbol R214 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(7700 mils, 7450 mils): Symbol R280 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(7900 mils, 2100 mils): Symbol R213 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(7900 mils, 6650 mils): Symbol R279 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(8050 mils, 4200 mils): Symbol U34 [LM2902]
+[lib_symbol_mismatch]: Symbol 'LM2902' doesn't match copy in library 'Amplifier_Operational'
+    ; warning
+    @(8050 mils, 4200 mils): Symbol U34 [LM2902]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(8050 mils, 8750 mils): Symbol U38 [LM2902]
+[lib_symbol_mismatch]: Symbol 'LM2902' doesn't match copy in library 'Amplifier_Operational'
+    ; warning
+    @(8050 mils, 8750 mils): Symbol U38 [LM2902]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(8250 mils, 3000 mils): Symbol Q12 [AO3400A]
+[lib_symbol_mismatch]: Symbol 'AO3400A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(8250 mils, 3000 mils): Symbol Q12 [AO3400A]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(8250 mils, 7550 mils): Symbol Q22 [AO3400A]
+[lib_symbol_mismatch]: Symbol 'AO3400A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(8250 mils, 7550 mils): Symbol Q22 [AO3400A]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(8950 mils, 4200 mils): Symbol R217 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(8950 mils, 8750 mils): Symbol R281 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9300 mils, 4550 mils): Symbol R218 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9300 mils, 9100 mils): Symbol R282 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9350 mils, 2200 mils): Symbol Q10 [AO3401A]
+[lib_symbol_mismatch]: Symbol 'AO3401A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(9350 mils, 2200 mils): Symbol Q10 [AO3401A]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9350 mils, 2750 mils): Symbol R262 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9350 mils, 6750 mils): Symbol Q20 [AO3401A]
+[lib_symbol_mismatch]: Symbol 'AO3401A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(9350 mils, 6750 mils): Symbol Q20 [AO3401A]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9350 mils, 7300 mils): Symbol R283 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9550 mils, 3350 mils): Symbol Q11 [Q_NPN]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9550 mils, 7900 mils): Symbol Q21 [Q_NPN]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9800 mils, 2500 mils): Symbol R263 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9800 mils, 7050 mils): Symbol R284 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9850 mils, 4500 mils): Symbol D46 [BAV99]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9850 mils, 9000 mils): Symbol D66 [BAV99]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(10200 mils, 3350 mils): Symbol R264 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(10200 mils, 7900 mils): Symbol R285 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(11950 mils, 6400 mils): Symbol C159 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(12000 mils, 2350 mils): Symbol C153 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(12450 mils, 2100 mils): Symbol LB11 [FerriteBead]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(12450 mils, 6150 mils): Symbol LB14 [FerriteBead]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(12800 mils, 4350 mils): Symbol R161 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(12800 mils, 8350 mils): Symbol R209 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(13200 mils, 6950 mils): Symbol R287 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(13250 mils, 2900 mils): Symbol R266 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(13400 mils, 2100 mils): Symbol R265 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(13400 mils, 6150 mils): Symbol R286 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(13550 mils, 8250 mils): Symbol U38 [LM2902]
+[lib_symbol_mismatch]: Symbol 'LM2902' doesn't match copy in library 'Amplifier_Operational'
+    ; warning
+    @(13550 mils, 8250 mils): Symbol U38 [LM2902]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(13600 mils, 4200 mils): Symbol U34 [LM2902]
+[lib_symbol_mismatch]: Symbol 'LM2902' doesn't match copy in library 'Amplifier_Operational'
+    ; warning
+    @(13600 mils, 4200 mils): Symbol U34 [LM2902]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(13750 mils, 7050 mils): Symbol Q25 [AO3400A]
+[lib_symbol_mismatch]: Symbol 'AO3400A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(13750 mils, 7050 mils): Symbol Q25 [AO3400A]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(13800 mils, 3000 mils): Symbol Q15 [AO3400A]
+[lib_symbol_mismatch]: Symbol 'AO3400A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(13800 mils, 3000 mils): Symbol Q15 [AO3400A]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(13900 mils, 1150 mils): Symbol U34 [LM2902]
+[lib_symbol_mismatch]: Symbol 'LM2902' doesn't match copy in library 'Amplifier_Operational'
+    ; warning
+    @(13900 mils, 1150 mils): Symbol U34 [LM2902]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(14450 mils, 4200 mils): Symbol R267 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(14450 mils, 8250 mils): Symbol R288 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(14800 mils, 4550 mils): Symbol R268 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(14800 mils, 8600 mils): Symbol R289 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(14850 mils, 2200 mils): Symbol Q13 [AO3401A]
+[lib_symbol_mismatch]: Symbol 'AO3401A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(14850 mils, 2200 mils): Symbol Q13 [AO3401A]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(14850 mils, 2750 mils): Symbol R269 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(14850 mils, 6250 mils): Symbol Q23 [AO3401A]
+[lib_symbol_mismatch]: Symbol 'AO3401A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(14850 mils, 6250 mils): Symbol Q23 [AO3401A]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(14850 mils, 6800 mils): Symbol R290 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(15050 mils, 3350 mils): Symbol Q14 [Q_NPN]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(15050 mils, 7400 mils): Symbol Q24 [Q_NPN]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(15300 mils, 2500 mils): Symbol R270 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(15300 mils, 6550 mils): Symbol R291 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(15350 mils, 4450 mils): Symbol D64 [BAV99]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(15350 mils, 8500 mils): Symbol D67 [BAV99]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(15600 mils, 3350 mils): Symbol R271 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(15750 mils, 7400 mils): Symbol R292 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(1350 mils, 5650 mils): Symbol R164 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(1400 mils, 2350 mils): Symbol R9 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(1750 mils, 5150 mils): Symbol C101 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(1800 mils, 1900 mils): Symbol C6 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2150 mils, 5650 mils): Symbol R165 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2200 mils, 2350 mils): Symbol R10 [R]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2230 mils, 8200 mils): Horizontal Wire, length 1020 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2230 mils, 8200 mils): Vertical Wire, length 100 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2230 mils, 8300 mils): Horizontal Wire, length 70 mils
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2450 mils, 6150 mils): Symbol C102 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2500 mils, 2850 mils): Symbol C7 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2500 mils, 8400 mils): Symbol J15 [SW_SPDT]
+[lib_symbol_mismatch]: Symbol 'SW_SPDT' doesn't match copy in library 'Switch'
+    ; warning
+    @(2500 mils, 8400 mils): Symbol J15 [SW_SPDT]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2700 mils, 9550 mils): Symbol R207 [R]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2830 mils, 8400 mils): Vertical Wire, length 150 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2700 mils, 8400 mils): Horizontal Wire, length 130 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2830 mils, 8550 mils): Horizontal Wire, length 220 mils
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(3050 mils, 8950 mils): Symbol R6 [R]
+[four_way_junction]: Four items connected at 774700, 2349500
+    ; warning
+    @(3050 mils, 9100 mils): Vertical Wire, length 150 mils
+    @(3050 mils, 9250 mils): Vertical Wire, length 250 mils
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(3050 mils, 9650 mils): Symbol C5 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(3300 mils, 5550 mils): Symbol U24 [LM2904]
+[lib_symbol_mismatch]: Symbol 'LM2904' doesn't match copy in library 'Amplifier_Operational'
+    ; warning
+    @(3300 mils, 5550 mils): Symbol U24 [LM2904]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(3350 mils, 2250 mils): Symbol U4 [LM2904]
+[lib_symbol_mismatch]: Symbol 'LM2904' doesn't match copy in library 'Amplifier_Operational'
+    ; warning
+    @(3350 mils, 2250 mils): Symbol U4 [LM2904]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(3400 mils, 9250 mils): Symbol R4 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(3850 mils, 8550 mils): Symbol D2 [BAV99]
+[four_way_junction]: Four items connected at 1028700, 2349500
+    ; warning
+    @(4050 mils, 9250 mils): Vertical Wire, length 250 mils
+    @(4050 mils, 9250 mils): Vertical Wire, length 700 mils
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4050 mils, 9650 mils): Symbol C4 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4100 mils, 5550 mils): Symbol R166 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4100 mils, 6050 mils): Symbol R167 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4300 mils, 2250 mils): Symbol R11 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4300 mils, 2750 mils): Symbol R12 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4350 mils, 1350 mils): Symbol U4 [LM2904]
+[lib_symbol_mismatch]: Symbol 'LM2904' doesn't match copy in library 'Amplifier_Operational'
+    ; warning
+    @(4350 mils, 1350 mils): Symbol U4 [LM2904]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4800 mils, 4750 mils): Symbol U24 [LM2904]
+[lib_symbol_mismatch]: Symbol 'LM2904' doesn't match copy in library 'Amplifier_Operational'
+    ; warning
+    @(4800 mils, 4750 mils): Symbol U24 [LM2904]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4800 mils, 6350 mils): Symbol R168 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4850 mils, 3050 mils): Symbol R13 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(5000 mils, 9250 mils): Symbol U1 [74AHC1G14]
+[lib_symbol_mismatch]: Symbol '74AHC1G14' doesn't match copy in library '74xGxx'
+    ; warning
+    @(5000 mils, 9250 mils): Symbol U1 [74AHC1G14]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(5450 mils, 5650 mils): Symbol U24 [LM2904]
+[lib_symbol_mismatch]: Symbol 'LM2904' doesn't match copy in library 'Amplifier_Operational'
+    ; warning
+    @(5450 mils, 5650 mils): Symbol U24 [LM2904]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(5450 mils, 6100 mils): Symbol R169 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(5500 mils, 2350 mils): Symbol U4 [LM2904]
+[lib_symbol_mismatch]: Symbol 'LM2904' doesn't match copy in library 'Amplifier_Operational'
+    ; warning
+    @(5500 mils, 2350 mils): Symbol U4 [LM2904]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(5500 mils, 2800 mils): Symbol R14 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(6300 mils, 5650 mils): Symbol Q3 [Q_NPN]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(6350 mils, 2350 mils): Symbol Q1 [Q_NPN]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(6500 mils, 5150 mils): Symbol R170 [R]
+[four_way_junction]: Four items connected at 1651000, 1549400
+    ; warning
+    @(6500 mils, 5850 mils): Vertical Wire, length 250 mils
+    @(5600 mils, 6100 mils): Horizontal Wire, length 900 mils
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(6500 mils, 6450 mils): Symbol R171 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(6550 mils, 1850 mils): Symbol R15 [R]
+[four_way_junction]: Four items connected at 1663700, 711200
+    ; warning
+    @(5650 mils, 2800 mils): Horizontal Wire, length 900 mils
+    @(6550 mils, 2550 mils): Vertical Wire, length 250 mils
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(6550 mils, 3150 mils): Symbol R16 [R]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(7040 mils, 6300 mils): Horizontal Wire, length 260 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3750 mils, 7350 mils): Horizontal Wire, length 3290 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(7040 mils, 7350 mils): Vertical Wire, length 1050 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(7320 mils, 3000 mils): Horizontal Wire, length 130 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3800 mils, 4050 mils): Horizontal Wire, length 3520 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(7320 mils, 4050 mils): Vertical Wire, length 1050 mils
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(7500 mils, 6200 mils): Symbol J13 [SW_SPDT]
+[lib_symbol_mismatch]: Symbol 'SW_SPDT' doesn't match copy in library 'Switch'
+    ; warning
+    @(7500 mils, 6200 mils): Symbol J13 [SW_SPDT]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(7500 mils, 7100 mils): Symbol D37 [D_TVS]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(7540 mils, 6470 mils): Vertical Wire, length 230 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(7500 mils, 6700 mils): Horizontal Wire, length 40 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(7540 mils, 6700 mils): Horizontal Wire, length 210 mils
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(7550 mils, 3800 mils): Symbol D3 [D_TVS]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(7650 mils, 2900 mils): Symbol J11 [SW_SPDT]
+[lib_symbol_mismatch]: Symbol 'SW_SPDT' doesn't match copy in library 'Switch'
+    ; warning
+    @(7650 mils, 2900 mils): Symbol J11 [SW_SPDT]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(7690 mils, 3170 mils): Vertical Wire, length 230 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(7690 mils, 3400 mils): Horizontal Wire, length 110 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(7550 mils, 3400 mils): Horizontal Wire, length 140 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(7700 mils, 6200 mils): Horizontal Wire, length 80 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(7780 mils, 6200 mils): Vertical Wire, length 270 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(7780 mils, 6470 mils): Horizontal Wire, length 240 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(7850 mils, 2900 mils): Horizontal Wire, length 80 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(7930 mils, 2900 mils): Vertical Wire, length 270 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(7930 mils, 3170 mils): Horizontal Wire, length 240 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8480 mils, 8210 mils): Horizontal Wire, length 1020 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8480 mils, 8350 mils): Vertical Wire, length 140 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(8480 mils, 8350 mils): Horizontal Wire, length 70 mils
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(8750 mils, 8450 mils): Symbol J14 [SW_SPDT]
+[lib_symbol_mismatch]: Symbol 'SW_SPDT' doesn't match copy in library 'Switch'
+    ; warning
+    @(8750 mils, 8450 mils): Symbol J14 [SW_SPDT]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9100 mils, 9800 mils): Symbol R208 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9200 mils, 5650 mils): Symbol R180 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9250 mils, 2350 mils): Symbol R172 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9350 mils, 9150 mils): Symbol R139 [R]
+[four_way_junction]: Four items connected at 2374900, 2400300
+    ; warning
+    @(9350 mils, 9450 mils): Horizontal Wire, length 200 mils
+    @(9350 mils, 9300 mils): Vertical Wire, length 150 mils
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9350 mils, 9850 mils): Symbol C82 [C]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9500 mils, 8100 mils): Vertical Wire, length 110 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9500 mils, 8210 mils): Horizontal Wire, length 650 mils
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9600 mils, 5150 mils): Symbol C105 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9650 mils, 1850 mils): Symbol C103 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9700 mils, 9450 mils): Symbol R138 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9900 mils, 2350 mils): Symbol R173 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(10000 mils, 5650 mils): Symbol R181 [R]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10150 mils, 8210 mils): Vertical Wire, length 240 mils
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(10150 mils, 8750 mils): Symbol D30 [BAV99]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(10300 mils, 6150 mils): Symbol C106 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(10350 mils, 2850 mils): Symbol C104 [C]
+[four_way_junction]: Four items connected at 2628900, 2400300
+    ; warning
+    @(10350 mils, 9450 mils): Vertical Wire, length 250 mils
+    @(9850 mils, 9450 mils): Horizontal Wire, length 500 mils
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(10350 mils, 9850 mils): Symbol C81 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(11150 mils, 5550 mils): Symbol U26 [LM2904]
+[lib_symbol_mismatch]: Symbol 'LM2904' doesn't match copy in library 'Amplifier_Operational'
+    ; warning
+    @(11150 mils, 5550 mils): Symbol U26 [LM2904]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(11200 mils, 2250 mils): Symbol U25 [LM2904]
+[lib_symbol_mismatch]: Symbol 'LM2904' doesn't match copy in library 'Amplifier_Operational'
+    ; warning
+    @(11200 mils, 2250 mils): Symbol U25 [LM2904]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(11250 mils, 9450 mils): Symbol U23 [74AHC1G14]
+[lib_symbol_mismatch]: Symbol '74AHC1G14' doesn't match copy in library '74xGxx'
+    ; warning
+    @(11250 mils, 9450 mils): Symbol U23 [74AHC1G14]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(11680 mils, 2750 mils): Horizontal Wire, length 170 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(11680 mils, 3790 mils): Vertical Wire, length 1040 mils
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(11950 mils, 5550 mils): Symbol R182 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(11950 mils, 6050 mils): Symbol R183 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(12000 mils, 2250 mils): Symbol R174 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(12000 mils, 2750 mils): Symbol R175 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(12500 mils, 1450 mils): Symbol U25 [LM2904]
+[lib_symbol_mismatch]: Symbol 'LM2904' doesn't match copy in library 'Amplifier_Operational'
+    ; warning
+    @(12500 mils, 1450 mils): Symbol U25 [LM2904]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(12500 mils, 4700 mils): Symbol U26 [LM2904]
+[lib_symbol_mismatch]: Symbol 'LM2904' doesn't match copy in library 'Amplifier_Operational'
+    ; warning
+    @(12500 mils, 4700 mils): Symbol U26 [LM2904]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(12650 mils, 6500 mils): Symbol R184 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(12700 mils, 3200 mils): Symbol R176 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(13300 mils, 5650 mils): Symbol U26 [LM2904]
+[lib_symbol_mismatch]: Symbol 'LM2904' doesn't match copy in library 'Amplifier_Operational'
+    ; warning
+    @(13300 mils, 5650 mils): Symbol U26 [LM2904]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(13300 mils, 6100 mils): Symbol R185 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(13350 mils, 2350 mils): Symbol U25 [LM2904]
+[lib_symbol_mismatch]: Symbol 'LM2904' doesn't match copy in library 'Amplifier_Operational'
+    ; warning
+    @(13350 mils, 2350 mils): Symbol U25 [LM2904]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(13350 mils, 2800 mils): Symbol R177 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(14150 mils, 5650 mils): Symbol Q5 [Q_NPN]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(14200 mils, 2350 mils): Symbol Q4 [Q_NPN]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(14350 mils, 5150 mils): Symbol R186 [R]
+[four_way_junction]: Four items connected at 3644900, 1549400
+    ; warning
+    @(14350 mils, 5850 mils): Vertical Wire, length 250 mils
+    @(14350 mils, 6100 mils): Horizontal Wire, length 850 mils
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(14350 mils, 6450 mils): Symbol R187 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(14400 mils, 1850 mils): Symbol R178 [R]
+[four_way_junction]: Four items connected at 3657600, 711200
+    ; warning
+    @(14400 mils, 2800 mils): Vertical Wire, length 200 mils
+    @(13500 mils, 2800 mils): Horizontal Wire, length 900 mils
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(14400 mils, 3150 mils): Symbol R179 [R]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(14930 mils, 3000 mils): Horizontal Wire, length 320 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(14930 mils, 3000 mils): Vertical Wire, length 790 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(14930 mils, 3790 mils): Horizontal Wire, length 3250 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(15030 mils, 6300 mils): Vertical Wire, length 1050 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(15030 mils, 6300 mils): Horizontal Wire, length 170 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(15030 mils, 7350 mils): Horizontal Wire, length 3430 mils
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(15350 mils, 7150 mils): Symbol D39 [D_TVS]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(15400 mils, 3800 mils): Symbol D38 [D_TVS]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(15400 mils, 6200 mils): Symbol J8 [SW_SPDT]
+[lib_symbol_mismatch]: Symbol 'SW_SPDT' doesn't match copy in library 'Switch'
+    ; warning
+    @(15400 mils, 6200 mils): Symbol J8 [SW_SPDT]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(15440 mils, 6470 mils): Vertical Wire, length 230 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(15350 mils, 6700 mils): Horizontal Wire, length 90 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(15440 mils, 6700 mils): Horizontal Wire, length 160 mils
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(15450 mils, 2900 mils): Symbol J1 [SW_SPDT]
+[lib_symbol_mismatch]: Symbol 'SW_SPDT' doesn't match copy in library 'Switch'
+    ; warning
+    @(15450 mils, 2900 mils): Symbol J1 [SW_SPDT]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(15490 mils, 3170 mils): Vertical Wire, length 230 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(15490 mils, 3400 mils): Horizontal Wire, length 160 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(15400 mils, 3400 mils): Horizontal Wire, length 90 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(15680 mils, 6200 mils): Vertical Wire, length 270 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(15600 mils, 6200 mils): Horizontal Wire, length 80 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(15680 mils, 6470 mils): Horizontal Wire, length 240 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(15650 mils, 2900 mils): Horizontal Wire, length 80 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(15730 mils, 2900 mils): Vertical Wire, length 270 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(15730 mils, 3170 mils): Horizontal Wire, length 240 mils
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(1200 mils, 6450 mils): Symbol R94 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(1500 mils, 2650 mils): Symbol J41 [Conn_01x04_Socket]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(1500 mils, 9200 mils): Symbol C130 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(1550 mils, 6450 mils): Symbol R95 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(1650 mils, 4200 mils): Symbol J23 [Conn_01x05_Socket]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(1750 mils, 9200 mils): Symbol C131 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(1850 mils, 6450 mils): Symbol R96 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2000 mils, 9200 mils): Symbol C132 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2050 mils, 7350 mils): Symbol R98 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2250 mils, 2100 mils): Symbol F3 [Fuse]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2250 mils, 4000 mils): Symbol R32 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2250 mils, 4100 mils): Symbol R33 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2250 mils, 4200 mils): Symbol R34 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2250 mils, 4300 mils): Symbol R46 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2250 mils, 9200 mils): Symbol C133 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2450 mils, 7150 mils): Symbol U33 [NCP3063]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'pads_import'
+    ; warning
+    @(2450 mils, 7150 mils): Symbol U33 [NCP3063]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2500 mils, 9200 mils): Symbol C134 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2600 mils, 7350 mils): Symbol R97 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2650 mils, 2650 mils): Symbol D42 [D_TVS]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2750 mils, 9200 mils): Symbol C135 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(3000 mils, 2100 mils): Symbol D41 [D]
+[four_way_junction]: Four items connected at 825500, 533400
+    ; warning
+    @(3250 mils, 1600 mils): Vertical Wire, length 500 mils
+    @(3250 mils, 2100 mils): Horizontal Wire, length 250 mils
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(3250 mils, 2600 mils): Symbol C32 [C_US]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(3450 mils, 7250 mils): Symbol C52 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(3500 mils, 2600 mils): Symbol C8 [C_US]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(3650 mils, 1600 mils): Symbol R198 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(3850 mils, 7250 mils): Symbol D20 [D]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4000 mils, 1600 mils): Symbol R199 [R]
+[four_way_junction]: Four items connected at 1016000, 533400
+    ; warning
+    @(4000 mils, 2100 mils): Vertical Wire, length 350 mils
+    @(3650 mils, 2100 mils): Horizontal Wire, length 350 mils
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4000 mils, 2600 mils): Symbol C111 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4250 mils, 6850 mils): Symbol L2 [L]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4300 mils, 1600 mils): Symbol R200 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4500 mils, 2500 mils): Symbol R202 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4750 mils, 7250 mils): Symbol C50 [C_US]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4900 mils, 2300 mils): Symbol U29 [NCP3063]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'pads_import'
+    ; warning
+    @(4900 mils, 2300 mils): Symbol U29 [NCP3063]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(5050 mils, 2500 mils): Symbol R201 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(5100 mils, 7250 mils): Symbol C51 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(5800 mils, 7300 mils): Symbol D4 [D_TVS]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(5900 mils, 2400 mils): Symbol C116 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(6300 mils, 2400 mils): Symbol D44 [D]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(6700 mils, 2000 mils): Symbol L1 [L]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(7150 mils, 2400 mils): Symbol C112 [C_US]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(7550 mils, 2450 mils): Symbol C113 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(8250 mils, 2450 mils): Symbol D43 [D_TVS]
+[four_way_junction]: Four items connected at 2209800, 508000
+    ; warning
+    @(8700 mils, 2000 mils): Vertical Wire, length 1400 mils
+    @(8250 mils, 2000 mils): Horizontal Wire, length 450 mils
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9550 mils, 2000 mils): Symbol U8 [LM1117MP-3.3]
+[lib_symbol_mismatch]: Symbol 'LM1117MP-3.3' doesn't match copy in library 'Regulator_Linear'
+    ; warning
+    @(9550 mils, 2000 mils): Symbol U8 [LM1117MP-3.3]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(10300 mils, 2400 mils): Symbol C29 [C_US]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(10600 mils, 2400 mils): Symbol C30 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(10700 mils, 5800 mils): Symbol R301 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(10700 mils, 6700 mils): Symbol D77 [TL431D]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(10950 mils, 2400 mils): Symbol D6 [D_TVS]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(11250 mils, 5800 mils): Symbol R296 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(11250 mils, 7050 mils): Symbol R299 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(11400 mils, 2000 mils): Symbol LB7 [FerriteBead]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(11600 mils, 6700 mils): Symbol R300 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(11750 mils, 2400 mils): Symbol C138 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(11900 mils, 6350 mils): Symbol R212 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(12050 mils, 2400 mils): Symbol C25 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(12350 mils, 2400 mils): Symbol C19 [C]
+[four_way_junction]: Four items connected at 3213100, 508000
+    ; warning
+    @(12650 mils, 2000 mils): Horizontal Wire, length 300 mils
+    @(12650 mils, 1850 mils): Vertical Wire, length 150 mils
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(12650 mils, 2400 mils): Symbol C27 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(12850 mils, 6700 mils): Symbol C147 [C_US]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(12950 mils, 2400 mils): Symbol C31 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(13250 mils, 2400 mils): Symbol C47 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(13300 mils, 6700 mils): Symbol C148 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(14150 mils, 2000 mils): Symbol R230 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(14700 mils, 2400 mils): Symbol D51 [LED]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(1050 mils, 2200 mils): Symbol C1 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(1200 mils, 6400 mils): Symbol C54 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(1500 mils, 1950 mils): Symbol LB15 [FerriteBead]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(1650 mils, 6150 mils): Symbol LB18 [FerriteBead]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(1900 mils, 4200 mils): Symbol R210 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2050 mils, 8500 mils): Symbol R216 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2300 mils, 2750 mils): Symbol R2 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2450 mils, 6950 mils): Symbol R117 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2600 mils, 1950 mils): Symbol R1 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2600 mils, 6150 mils): Symbol R116 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2650 mils, 4050 mils): Symbol U38 [LM2902]
+[lib_symbol_mismatch]: Symbol 'LM2902' doesn't match copy in library 'Amplifier_Operational'
+    ; warning
+    @(2650 mils, 4050 mils): Symbol U38 [LM2902]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2800 mils, 8250 mils): Symbol U42 [LM2902]
+[lib_symbol_mismatch]: Symbol 'LM2902' doesn't match copy in library 'Amplifier_Operational'
+    ; warning
+    @(2800 mils, 8250 mils): Symbol U42 [LM2902]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2850 mils, 2850 mils): Symbol Q28 [AO3400A]
+[lib_symbol_mismatch]: Symbol 'AO3400A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(2850 mils, 2850 mils): Symbol Q28 [AO3400A]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(3000 mils, 7050 mils): Symbol Q37 [AO3400A]
+[lib_symbol_mismatch]: Symbol 'AO3400A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(3000 mils, 7050 mils): Symbol Q37 [AO3400A]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(3550 mils, 4050 mils): Symbol R3 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(3700 mils, 8250 mils): Symbol R118 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(3900 mils, 4400 mils): Symbol R5 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(3950 mils, 2050 mils): Symbol Q26 [AO3401A]
+[lib_symbol_mismatch]: Symbol 'AO3401A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(3950 mils, 2050 mils): Symbol Q26 [AO3401A]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(3950 mils, 2600 mils): Symbol R99 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4050 mils, 8600 mils): Symbol R119 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4100 mils, 6250 mils): Symbol Q35 [AO3401A]
+[lib_symbol_mismatch]: Symbol 'AO3401A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(4100 mils, 6250 mils): Symbol Q35 [AO3401A]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4100 mils, 6800 mils): Symbol R120 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4150 mils, 3200 mils): Symbol Q27 [Q_NPN]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4300 mils, 7400 mils): Symbol Q36 [Q_NPN]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4350 mils, 2350 mils): Symbol R100 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4450 mils, 4350 mils): Symbol D1 [BAV99]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4500 mils, 6550 mils): Symbol R121 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4600 mils, 8500 mils): Symbol D23 [BAV99]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4800 mils, 3200 mils): Symbol R101 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4950 mils, 7400 mils): Symbol R122 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(6350 mils, 2250 mils): Symbol C3 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(6500 mils, 6400 mils): Symbol C56 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(6800 mils, 2000 mils): Symbol LB16 [FerriteBead]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(6950 mils, 6150 mils): Symbol LB19 [FerriteBead]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(7050 mils, 1250 mils): Symbol U38 [LM2902]
+[lib_symbol_mismatch]: Symbol 'LM2902' doesn't match copy in library 'Amplifier_Operational'
+    ; warning
+    @(7050 mils, 1250 mils): Symbol U38 [LM2902]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(7150 mils, 4350 mils): Symbol R211 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(7300 mils, 8550 mils): Symbol R220 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(7600 mils, 2800 mils): Symbol R103 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(7750 mils, 2000 mils): Symbol R102 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(7750 mils, 6950 mils): Symbol R124 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(7900 mils, 6150 mils): Symbol R123 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(7950 mils, 4100 mils): Symbol U38 [LM2902]
+[lib_symbol_mismatch]: Symbol 'LM2902' doesn't match copy in library 'Amplifier_Operational'
+    ; warning
+    @(7950 mils, 4100 mils): Symbol U38 [LM2902]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(8100 mils, 8250 mils): Symbol U42 [LM2902]
+[lib_symbol_mismatch]: Symbol 'LM2902' doesn't match copy in library 'Amplifier_Operational'
+    ; warning
+    @(8100 mils, 8250 mils): Symbol U42 [LM2902]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(8150 mils, 2900 mils): Symbol Q31 [AO3400A]
+[lib_symbol_mismatch]: Symbol 'AO3400A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(8150 mils, 2900 mils): Symbol Q31 [AO3400A]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(8300 mils, 7050 mils): Symbol Q40 [AO3400A]
+[lib_symbol_mismatch]: Symbol 'AO3400A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(8300 mils, 7050 mils): Symbol Q40 [AO3400A]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(8500 mils, 9650 mils): Symbol U42 [LM2902]
+[lib_symbol_mismatch]: Symbol 'LM2902' doesn't match copy in library 'Amplifier_Operational'
+    ; warning
+    @(8500 mils, 9650 mils): Symbol U42 [LM2902]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(8800 mils, 4100 mils): Symbol R104 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(8950 mils, 8250 mils): Symbol R125 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9150 mils, 4450 mils): Symbol R105 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9200 mils, 2100 mils): Symbol Q29 [AO3401A]
+[lib_symbol_mismatch]: Symbol 'AO3401A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(9200 mils, 2100 mils): Symbol Q29 [AO3401A]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9200 mils, 2650 mils): Symbol R106 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9300 mils, 8600 mils): Symbol R126 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9350 mils, 6250 mils): Symbol Q38 [AO3401A]
+[lib_symbol_mismatch]: Symbol 'AO3401A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(9350 mils, 6250 mils): Symbol Q38 [AO3401A]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9350 mils, 6800 mils): Symbol R127 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9400 mils, 3250 mils): Symbol Q30 [Q_NPN]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9550 mils, 7400 mils): Symbol Q39 [Q_NPN]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9650 mils, 2400 mils): Symbol R107 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9700 mils, 4350 mils): Symbol D21 [BAV99]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9800 mils, 6550 mils): Symbol R128 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9850 mils, 8500 mils): Symbol D24 [BAV99]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(10100 mils, 3250 mils): Symbol R108 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(10250 mils, 7400 mils): Symbol R129 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(11950 mils, 2200 mils): Symbol C49 [C]
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(12100 mils, 5800 mils): Vertical Wire, length 300 mils
+[four_way_junction]: Four items connected at 3073400, 1549400
+    ; warning
+    @(12100 mils, 6100 mils): Horizontal Wire, length 300 mils
+    @(12100 mils, 6200 mils): Vertical Wire, length 100 mils
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(12100 mils, 6350 mils): Symbol C58 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(12400 mils, 1950 mils): Symbol LB17 [FerriteBead]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(12550 mils, 6100 mils): Symbol LB20 [FerriteBead]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(12800 mils, 4350 mils): Symbol R215 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(12950 mils, 8550 mils): Symbol R234 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(13200 mils, 2750 mils): Symbol R110 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(13350 mils, 1950 mils): Symbol R109 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(13350 mils, 6900 mils): Symbol R131 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(13500 mils, 6100 mils): Symbol R130 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(13550 mils, 4050 mils): Symbol U42 [LM2902]
+[lib_symbol_mismatch]: Symbol 'LM2902' doesn't match copy in library 'Amplifier_Operational'
+    ; warning
+    @(13550 mils, 4050 mils): Symbol U42 [LM2902]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(13700 mils, 8200 mils): Symbol U42 [LM2902]
+[lib_symbol_mismatch]: Symbol 'LM2902' doesn't match copy in library 'Amplifier_Operational'
+    ; warning
+    @(13700 mils, 8200 mils): Symbol U42 [LM2902]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(13750 mils, 2850 mils): Symbol Q34 [AO3400A]
+[lib_symbol_mismatch]: Symbol 'AO3400A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(13750 mils, 2850 mils): Symbol Q34 [AO3400A]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(13900 mils, 7000 mils): Symbol Q43 [AO3400A]
+[lib_symbol_mismatch]: Symbol 'AO3400A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(13900 mils, 7000 mils): Symbol Q43 [AO3400A]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(14450 mils, 4050 mils): Symbol R111 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(14600 mils, 8200 mils): Symbol R132 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(14800 mils, 4400 mils): Symbol R112 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(14850 mils, 2050 mils): Symbol Q32 [AO3401A]
+[lib_symbol_mismatch]: Symbol 'AO3401A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(14850 mils, 2050 mils): Symbol Q32 [AO3401A]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(14850 mils, 2600 mils): Symbol R113 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(14950 mils, 8550 mils): Symbol R133 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(15000 mils, 6200 mils): Symbol Q41 [AO3401A]
+[lib_symbol_mismatch]: Symbol 'AO3401A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(15000 mils, 6200 mils): Symbol Q41 [AO3401A]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(15000 mils, 6750 mils): Symbol R134 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(15050 mils, 3200 mils): Symbol Q33 [Q_NPN]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(15200 mils, 7350 mils): Symbol Q42 [Q_NPN]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(15250 mils, 2350 mils): Symbol R114 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(15350 mils, 4300 mils): Symbol D22 [BAV99]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(15400 mils, 6500 mils): Symbol R135 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(15500 mils, 8500 mils): Symbol D25 [BAV99]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(15700 mils, 3200 mils): Symbol R115 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(15850 mils, 7350 mils): Symbol R136 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(1800 mils, 5950 mils): Symbol R74 [R]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2380 mils, 5800 mils): Vertical Wire, length 500 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2750 mils, 5800 mils): Horizontal Wire, length 370 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2380 mils, 6300 mils): Horizontal Wire, length 580 mils
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(3250 mils, 5300 mils): Symbol U2 [74HC245]
+[lib_symbol_mismatch]: Symbol '74HC245' doesn't match copy in library '74xx'
+    ; warning
+    @(3250 mils, 5300 mils): Symbol U2 [74HC245]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4300 mils, 2150 mils): Symbol R7 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4300 mils, 3450 mils): Symbol R75 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4300 mils, 4700 mils): Symbol R77 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4300 mils, 6000 mils): Symbol R79 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4300 mils, 7300 mils): Symbol R81 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4900 mils, 2050 mils): Symbol U3 [BT136-600]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4900 mils, 3350 mils): Symbol U14 [BT136-600]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4900 mils, 4600 mils): Symbol U15 [BT136-600]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4900 mils, 5900 mils): Symbol U16 [BT136-600]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4900 mils, 7200 mils): Symbol U17 [BT136-600]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(5700 mils, 2050 mils): Symbol R8 [Varistor]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(5700 mils, 3350 mils): Symbol R76 [Varistor]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(5700 mils, 4600 mils): Symbol R78 [Varistor]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(5700 mils, 5900 mils): Symbol R80 [Varistor]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(5700 mils, 7200 mils): Symbol R82 [Varistor]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(8850 mils, 5900 mils): Symbol R85 [R]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9430 mils, 5750 mils): Vertical Wire, length 500 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9800 mils, 5750 mils): Horizontal Wire, length 370 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(9430 mils, 6250 mils): Horizontal Wire, length 580 mils
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(10300 mils, 5250 mils): Symbol U18 [74HC245]
+[lib_symbol_mismatch]: Symbol '74HC245' doesn't match copy in library '74xx'
+    ; warning
+    @(10300 mils, 5250 mils): Symbol U18 [74HC245]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(11350 mils, 2100 mils): Symbol R83 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(11350 mils, 3400 mils): Symbol R86 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(11350 mils, 4650 mils): Symbol R88 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(11350 mils, 5950 mils): Symbol R90 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(11350 mils, 7250 mils): Symbol R92 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(11950 mils, 2000 mils): Symbol U13 [BT136-600]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(11950 mils, 3300 mils): Symbol U19 [BT136-600]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(11950 mils, 4550 mils): Symbol U20 [BT136-600]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(11950 mils, 5850 mils): Symbol U21 [BT136-600]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(11950 mils, 7150 mils): Symbol U22 [BT136-600]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(12750 mils, 2000 mils): Symbol R84 [Varistor]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(12750 mils, 3300 mils): Symbol R87 [Varistor]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(12750 mils, 4550 mils): Symbol R89 [Varistor]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(12750 mils, 5850 mils): Symbol R91 [Varistor]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(12750 mils, 7150 mils): Symbol R93 [Varistor]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(1500 mils, 7500 mils): Symbol R221 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(1500 mils, 9050 mils): Symbol J45 [Conn_01x04_Socket]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2200 mils, 5800 mils): Symbol R40 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2200 mils, 5900 mils): Symbol R41 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2200 mils, 6000 mils): Symbol R42 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2200 mils, 6100 mils): Symbol R43 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2200 mils, 6200 mils): Symbol R44 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2250 mils, 7500 mils): Symbol D48 [LED]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2470 mils, 5600 mils): Horizontal Wire, length 680 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2470 mils, 5800 mils): Vertical Wire, length 200 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2350 mils, 5800 mils): Horizontal Wire, length 120 mils
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2700 mils, 6000 mils): Symbol J6 [Conn_02x04_Odd_Even]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(3350 mils, 5750 mils): Symbol R45 [R]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4290 mils, 4040 mils): Vertical Wire, length 50 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4290 mils, 4040 mils): Horizontal Wire, length 550 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4840 mils, 4040 mils): Symbol R62 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4940 mils, 4990 mils): Horizontal Wire, length 60 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4940 mils, 5090 mils): Horizontal Wire, length 60 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4990 mils, 3300 mils): Horizontal Wire, length 320 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4990 mils, 3420 mils): Horizontal Wire, length 320 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4990 mils, 3540 mils): Horizontal Wire, length 320 mils
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4990 mils, 4040 mils): Symbol R62 [R]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5000 mils, 4990 mils): Vertical Wire, length 10 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5000 mils, 5090 mils): Vertical Wire, length 10 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5010 mils, 4620 mils): Horizontal Wire, length 300 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5020 mils, 4500 mils): Horizontal Wire, length 290 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5050 mils, 4140 mils): Horizontal Wire, length 260 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5140 mils, 4040 mils): Horizontal Wire, length 120 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5260 mils, 4020 mils): Horizontal Wire, length 50 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5260 mils, 4040 mils): Vertical Wire, length 20 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5310 mils, 1860 mils): Horizontal Wire, length 310 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5310 mils, 1980 mils): Horizontal Wire, length 310 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5310 mils, 2100 mils): Horizontal Wire, length 310 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5310 mils, 2820 mils): Horizontal Wire, length 320 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5310 mils, 2940 mils): Horizontal Wire, length 320 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5310 mils, 3780 mils): Horizontal Wire, length 300 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5310 mils, 3900 mils): Horizontal Wire, length 300 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5310 mils, 4260 mils): Horizontal Wire, length 300 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5310 mils, 4980 mils): Horizontal Wire, length 310 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5310 mils, 5100 mils): Horizontal Wire, length 310 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5310 mils, 5220 mils): Horizontal Wire, length 300 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5310 mils, 5340 mils): Horizontal Wire, length 300 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5310 mils, 5460 mils): Horizontal Wire, length 300 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5310 mils, 5580 mils): Horizontal Wire, length 300 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5310 mils, 5820 mils): Horizontal Wire, length 290 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5310 mils, 5940 mils): Horizontal Wire, length 290 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5310 mils, 6060 mils): Horizontal Wire, length 290 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5310 mils, 6180 mils): Horizontal Wire, length 290 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5310 mils, 6300 mils): Horizontal Wire, length 290 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5310 mils, 6420 mils): Horizontal Wire, length 290 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5310 mils, 6540 mils): Horizontal Wire, length 300 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5310 mils, 6660 mils): Horizontal Wire, length 300 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5310 mils, 6780 mils): Horizontal Wire, length 300 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5310 mils, 6900 mils): Horizontal Wire, length 300 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5310 mils, 7020 mils): Horizontal Wire, length 290 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5310 mils, 7380 mils): Horizontal Wire, length 300 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5310 mils, 7500 mils): Horizontal Wire, length 300 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5310 mils, 7620 mils): Horizontal Wire, length 300 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5310 mils, 8700 mils): Horizontal Wire, length 320 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5310 mils, 8820 mils): Horizontal Wire, length 380 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5310 mils, 8940 mils): Horizontal Wire, length 370 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5310 mils, 9060 mils): Horizontal Wire, length 370 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5310 mils, 9180 mils): Horizontal Wire, length 360 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5310 mils, 9420 mils): Horizontal Wire, length 160 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5310 mils, 9540 mils): Horizontal Wire, length 160 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5310 mils, 9660 mils): Horizontal Wire, length 160 mils
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(5510 mils, 9920 mils): Symbol U6 [STM32F103-144]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'pads_import'
+    ; warning
+    @(5510 mils, 9920 mils): Symbol U6 [STM32F103-144]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10350 mils, 1940 mils): Horizontal Wire, length 520 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10350 mils, 2060 mils): Horizontal Wire, length 520 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10350 mils, 2180 mils): Horizontal Wire, length 520 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10350 mils, 2420 mils): Horizontal Wire, length 520 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10350 mils, 2540 mils): Horizontal Wire, length 520 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10350 mils, 2660 mils): Horizontal Wire, length 520 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10350 mils, 2780 mils): Horizontal Wire, length 520 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10350 mils, 3020 mils): Horizontal Wire, length 520 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10350 mils, 3140 mils): Horizontal Wire, length 520 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10350 mils, 3260 mils): Horizontal Wire, length 520 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10350 mils, 3380 mils): Horizontal Wire, length 520 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10350 mils, 3860 mils): Horizontal Wire, length 520 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10350 mils, 3980 mils): Horizontal Wire, length 520 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10350 mils, 4220 mils): Horizontal Wire, length 520 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10350 mils, 4340 mils): Horizontal Wire, length 520 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10350 mils, 4460 mils): Horizontal Wire, length 520 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10350 mils, 4580 mils): Horizontal Wire, length 520 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10350 mils, 4580 mils): Symbol U6 Pin 18 [PF6/ADC4/FSMC_NIORD, Output, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10350 mils, 4820 mils): Horizontal Wire, length 520 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10350 mils, 4940 mils): Horizontal Wire, length 520 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10350 mils, 5060 mils): Horizontal Wire, length 520 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10350 mils, 5180 mils): Horizontal Wire, length 520 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10350 mils, 5420 mils): Horizontal Wire, length 520 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10350 mils, 5540 mils): Horizontal Wire, length 520 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10350 mils, 5660 mils): Horizontal Wire, length 520 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10350 mils, 6020 mils): Horizontal Wire, length 520 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10350 mils, 6980 mils): Horizontal Wire, length 520 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10350 mils, 7220 mils): Horizontal Wire, length 520 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10350 mils, 7340 mils): Horizontal Wire, length 520 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10350 mils, 7460 mils): Horizontal Wire, length 520 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10770 mils, 6140 mils): Horizontal Wire, length 420 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10770 mils, 6260 mils): Horizontal Wire, length 420 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10770 mils, 6380 mils): Horizontal Wire, length 420 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10770 mils, 6500 mils): Horizontal Wire, length 420 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10770 mils, 6620 mils): Horizontal Wire, length 420 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10770 mils, 6740 mils): Horizontal Wire, length 420 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10770 mils, 6860 mils): Horizontal Wire, length 420 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10850 mils, 3620 mils): Horizontal Wire, length 500 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10870 mils, 2300 mils): Horizontal Wire, length 520 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10350 mils, 2900 mils): Horizontal Wire, length 520 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10350 mils, 3500 mils): Horizontal Wire, length 520 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10350 mils, 4100 mils): Horizontal Wire, length 520 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10350 mils, 4700 mils): Horizontal Wire, length 520 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10350 mils, 5300 mils): Horizontal Wire, length 520 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10350 mils, 5900 mils): Horizontal Wire, length 520 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10350 mils, 7100 mils): Horizontal Wire, length 520 mils
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(1200 mils, 2100 mils): Symbol C60 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(1200 mils, 6650 mils): Symbol C66 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(1650 mils, 1850 mils): Symbol LB21 [FerriteBead]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(1650 mils, 6400 mils): Symbol LB24 [FerriteBead]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2050 mils, 4100 mils): Symbol R235 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2050 mils, 8750 mils): Symbol R335 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2450 mils, 2650 mils): Symbol R225 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2450 mils, 7200 mils): Symbol R313 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2600 mils, 1850 mils): Symbol R137 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2600 mils, 6400 mils): Symbol R312 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2800 mils, 3950 mils): Symbol U46 [LM2902]
+[lib_symbol_mismatch]: Symbol 'LM2902' doesn't match copy in library 'Amplifier_Operational'
+    ; warning
+    @(2800 mils, 3950 mils): Symbol U46 [LM2902]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(2800 mils, 8500 mils): Symbol U46 [LM2902]
+[lib_symbol_mismatch]: Symbol 'LM2902' doesn't match copy in library 'Amplifier_Operational'
+    ; warning
+    @(2800 mils, 8500 mils): Symbol U46 [LM2902]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(3000 mils, 2750 mils): Symbol Q46 [AO3400A]
+[lib_symbol_mismatch]: Symbol 'AO3400A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(3000 mils, 2750 mils): Symbol Q46 [AO3400A]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(3000 mils, 7300 mils): Symbol Q55 [AO3400A]
+[lib_symbol_mismatch]: Symbol 'AO3400A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(3000 mils, 7300 mils): Symbol Q55 [AO3400A]
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(3200 mils, 2650 mils): Horizontal Wire, length 250 mils
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(3700 mils, 3950 mils): Symbol R226 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(3700 mils, 8500 mils): Symbol R314 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4050 mils, 4300 mils): Symbol R227 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4050 mils, 8850 mils): Symbol R315 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4100 mils, 1950 mils): Symbol Q44 [AO3401A]
+[lib_symbol_mismatch]: Symbol 'AO3401A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(4100 mils, 1950 mils): Symbol Q44 [AO3401A]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4100 mils, 2500 mils): Symbol R228 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4100 mils, 6500 mils): Symbol Q53 [AO3401A]
+[lib_symbol_mismatch]: Symbol 'AO3401A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(4100 mils, 6500 mils): Symbol Q53 [AO3401A]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4100 mils, 7050 mils): Symbol R316 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4300 mils, 3100 mils): Symbol Q45 [Q_NPN]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4300 mils, 7650 mils): Symbol Q54 [Q_NPN]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4500 mils, 2250 mils): Symbol R229 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4500 mils, 6750 mils): Symbol R317 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4600 mils, 4200 mils): Symbol D26 [BAV99]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4600 mils, 8750 mils): Symbol D29 [BAV99]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4800 mils, 3100 mils): Symbol R293 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4950 mils, 7650 mils): Symbol R318 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(6500 mils, 2150 mils): Symbol C62 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(6500 mils, 6800 mils): Symbol C68 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(6950 mils, 1900 mils): Symbol LB22 [FerriteBead]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(6950 mils, 6400 mils): Symbol LB25 [FerriteBead]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(6950 mils, 10000 mils): Symbol U50 [LM2902]
+[lib_symbol_mismatch]: Symbol 'LM2902' doesn't match copy in library 'Amplifier_Operational'
+    ; warning
+    @(6950 mils, 10000 mils): Symbol U50 [LM2902]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(7300 mils, 4150 mils): Symbol R333 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(7300 mils, 8800 mils): Symbol R336 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(7750 mils, 2700 mils): Symbol R295 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(7750 mils, 7200 mils): Symbol R320 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(7750 mils, 10000 mils): Symbol U50 [LM2902]
+[lib_symbol_mismatch]: Symbol 'LM2902' doesn't match copy in library 'Amplifier_Operational'
+    ; warning
+    @(7750 mils, 10000 mils): Symbol U50 [LM2902]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(7900 mils, 1900 mils): Symbol R294 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(7900 mils, 6400 mils): Symbol R319 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(8100 mils, 4000 mils): Symbol U46 [LM2902]
+[lib_symbol_mismatch]: Symbol 'LM2902' doesn't match copy in library 'Amplifier_Operational'
+    ; warning
+    @(8100 mils, 4000 mils): Symbol U46 [LM2902]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(8100 mils, 8500 mils): Symbol U50 [LM2902]
+[lib_symbol_mismatch]: Symbol 'LM2902' doesn't match copy in library 'Amplifier_Operational'
+    ; warning
+    @(8100 mils, 8500 mils): Symbol U50 [LM2902]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(8300 mils, 2800 mils): Symbol Q49 [AO3400A]
+[lib_symbol_mismatch]: Symbol 'AO3400A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(8300 mils, 2800 mils): Symbol Q49 [AO3400A]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(8300 mils, 7300 mils): Symbol Q58 [AO3400A]
+[lib_symbol_mismatch]: Symbol 'AO3400A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(8300 mils, 7300 mils): Symbol Q58 [AO3400A]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(8900 mils, 9900 mils): Symbol U50 [LM2902]
+[lib_symbol_mismatch]: Symbol 'LM2902' doesn't match copy in library 'Amplifier_Operational'
+    ; warning
+    @(8900 mils, 9900 mils): Symbol U50 [LM2902]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(8950 mils, 4000 mils): Symbol R297 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(8950 mils, 8500 mils): Symbol R321 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9300 mils, 4350 mils): Symbol R298 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9300 mils, 8850 mils): Symbol R322 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9350 mils, 2000 mils): Symbol Q47 [AO3401A]
+[lib_symbol_mismatch]: Symbol 'AO3401A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(9350 mils, 2000 mils): Symbol Q47 [AO3401A]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9350 mils, 2550 mils): Symbol R302 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9350 mils, 6500 mils): Symbol Q56 [AO3401A]
+[lib_symbol_mismatch]: Symbol 'AO3401A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(9350 mils, 6500 mils): Symbol Q56 [AO3401A]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9350 mils, 7050 mils): Symbol R323 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9550 mils, 3150 mils): Symbol Q48 [Q_NPN]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9550 mils, 7650 mils): Symbol Q57 [Q_NPN]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9800 mils, 2250 mils): Symbol R303 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9800 mils, 6800 mils): Symbol R324 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9850 mils, 4250 mils): Symbol D27 [BAV99]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9850 mils, 8750 mils): Symbol D49 [BAV99]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(10250 mils, 3150 mils): Symbol R304 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(10250 mils, 7650 mils): Symbol R325 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(10700 mils, 10000 mils): Symbol U9 [4051]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'pads_import'
+    ; warning
+    @(10700 mils, 10000 mils): Symbol U9 [4051]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(11850 mils, 2100 mils): Symbol C64 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(11850 mils, 6450 mils): Symbol C70 [C]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(11600 mils, 9700 mils): Horizontal Wire, length 260 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(11600 mils, 9800 mils): Horizontal Wire, length 260 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(11600 mils, 9900 mils): Horizontal Wire, length 260 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(11600 mils, 10000 mils): Horizontal Wire, length 260 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(11600 mils, 10100 mils): Horizontal Wire, length 260 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(11600 mils, 10300 mils): Horizontal Wire, length 260 mils
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(12350 mils, 1850 mils): Symbol LB23 [FerriteBead]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(12350 mils, 6200 mils): Symbol LB26 [FerriteBead]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(12700 mils, 4100 mils): Symbol R334 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(12700 mils, 8550 mils): Symbol R337 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(13100 mils, 2650 mils): Symbol R306 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(13250 mils, 7000 mils): Symbol R327 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(13300 mils, 1850 mils): Symbol R305 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(13450 mils, 3950 mils): Symbol U46 [LM2902]
+[lib_symbol_mismatch]: Symbol 'LM2902' doesn't match copy in library 'Amplifier_Operational'
+    ; warning
+    @(13450 mils, 3950 mils): Symbol U46 [LM2902]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(13450 mils, 6200 mils): Symbol R326 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(13450 mils, 8300 mils): Symbol U50 [LM2902]
+[lib_symbol_mismatch]: Symbol 'LM2902' doesn't match copy in library 'Amplifier_Operational'
+    ; warning
+    @(13450 mils, 8300 mils): Symbol U50 [LM2902]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(13650 mils, 2750 mils): Symbol Q52 [AO3400A]
+[lib_symbol_mismatch]: Symbol 'AO3400A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(13650 mils, 2750 mils): Symbol Q52 [AO3400A]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(13650 mils, 7100 mils): Symbol Q61 [AO3400A]
+[lib_symbol_mismatch]: Symbol 'AO3400A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(13650 mils, 7100 mils): Symbol Q61 [AO3400A]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(13800 mils, 850 mils): Symbol U46 [LM2902]
+[lib_symbol_mismatch]: Symbol 'LM2902' doesn't match copy in library 'Amplifier_Operational'
+    ; warning
+    @(13800 mils, 850 mils): Symbol U46 [LM2902]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(14350 mils, 3950 mils): Symbol R307 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(14350 mils, 8300 mils): Symbol R328 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(14700 mils, 4300 mils): Symbol R308 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(14700 mils, 8650 mils): Symbol R329 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(14750 mils, 1950 mils): Symbol Q50 [AO3401A]
+[lib_symbol_mismatch]: Symbol 'AO3401A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(14750 mils, 1950 mils): Symbol Q50 [AO3401A]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(14750 mils, 2500 mils): Symbol R309 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(14750 mils, 6300 mils): Symbol Q59 [AO3401A]
+[lib_symbol_mismatch]: Symbol 'AO3401A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(14750 mils, 6300 mils): Symbol Q59 [AO3401A]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(14750 mils, 6850 mils): Symbol R330 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(14950 mils, 3100 mils): Symbol Q51 [Q_NPN]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(14950 mils, 7450 mils): Symbol Q60 [Q_NPN]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(15200 mils, 2250 mils): Symbol R310 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(15200 mils, 6600 mils): Symbol R331 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(15250 mils, 4200 mils): Symbol D28 [BAV99]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(15250 mils, 8550 mils): Symbol D50 [BAV99]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(15500 mils, 3100 mils): Symbol R311 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(15650 mils, 7450 mils): Symbol R332 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(3800 mils, 5650 mils): Symbol C12 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(3800 mils, 6350 mils): Symbol C11 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(3900 mils, 3500 mils): Symbol R31 [R]
+[four_way_junction]: Four items connected at 990600, 1079500
+    ; warning
+    @(4310 mils, 4250 mils): Horizontal Wire, length 410 mils
+    @(3900 mils, 4400 mils): Vertical Wire, length 150 mils
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(3900 mils, 4550 mils): Symbol R30 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4100 mils, 3750 mils): Symbol J4 [Conn_01x02]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4150 mils, 6000 mils): Symbol Y1 [Crystal]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4310 mils, 4250 mils): Horizontal Wire, length 410 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4310 mils, 4280 mils): Vertical Wire, length 30 mils
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4450 mils, 6050 mils): Symbol R27 [R]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4700 mils, 4150 mils): Vertical Wire, length 30 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4700 mils, 4280 mils): Horizontal Wire, length 390 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4700 mils, 5630 mils): Vertical Wire, length 20 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4700 mils, 5780 mils): Vertical Wire, length 570 mils
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(5000 mils, 6730 mils): Symbol U6 [STM32F103-144]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'pads_import'
+    ; warning
+    @(5000 mils, 6730 mils): Symbol U6 [STM32F103-144]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6700 mils, 3330 mils): Horizontal Wire, length 110 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6700 mils, 3430 mils): Horizontal Wire, length 250 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6700 mils, 3580 mils): Horizontal Wire, length 250 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6700 mils, 3680 mils): Horizontal Wire, length 250 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6700 mils, 3830 mils): Horizontal Wire, length 250 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6700 mils, 3930 mils): Horizontal Wire, length 250 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6700 mils, 4030 mils): Vertical Wire, length 20 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6700 mils, 4180 mils): Horizontal Wire, length 250 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6700 mils, 4280 mils): Horizontal Wire, length 250 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6700 mils, 4430 mils): Horizontal Wire, length 250 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6700 mils, 4530 mils): Horizontal Wire, length 250 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6700 mils, 4630 mils): Vertical Wire, length 20 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6700 mils, 4780 mils): Horizontal Wire, length 250 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6700 mils, 4880 mils): Horizontal Wire, length 250 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6700 mils, 5000 mils): Vertical Wire, length 30 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6700 mils, 5130 mils): Horizontal Wire, length 250 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6700 mils, 5230 mils): Horizontal Wire, length 250 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6700 mils, 5380 mils): Horizontal Wire, length 250 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6700 mils, 5450 mils): Vertical Wire, length 30 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6700 mils, 5630 mils): Horizontal Wire, length 250 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6700 mils, 5730 mils): Horizontal Wire, length 250 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6700 mils, 5830 mils): Horizontal Wire, length 250 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6700 mils, 5980 mils): Horizontal Wire, length 250 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6700 mils, 6080 mils): Horizontal Wire, length 250 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6700 mils, 6230 mils): Horizontal Wire, length 250 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6700 mils, 6330 mils): Horizontal Wire, length 250 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6700 mils, 6330 mils): Symbol U6 Pin 30 [VSSA, Bidirectional, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6700 mils, 6430 mils): Horizontal Wire, length 250 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6810 mils, 3300 mils): Vertical Wire, length 30 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6950 mils, 3300 mils): Horizontal Wire, length 140 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6950 mils, 3300 mils): Vertical Wire, length 130 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6950 mils, 3430 mils): Vertical Wire, length 150 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6950 mils, 3580 mils): Vertical Wire, length 100 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6950 mils, 3680 mils): Vertical Wire, length 150 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6950 mils, 3830 mils): Vertical Wire, length 100 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6950 mils, 4050 mils): Vertical Wire, length 120 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6950 mils, 4180 mils): Vertical Wire, length 100 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6950 mils, 4050 mils): Vertical Wire, length 130 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6950 mils, 4280 mils): Vertical Wire, length 150 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6950 mils, 4430 mils): Vertical Wire, length 100 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6950 mils, 4530 mils): Vertical Wire, length 120 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6950 mils, 4780 mils): Vertical Wire, length 100 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6950 mils, 4650 mils): Vertical Wire, length 130 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6950 mils, 5000 mils): Vertical Wire, length 130 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6950 mils, 5130 mils): Vertical Wire, length 100 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6950 mils, 5230 mils): Vertical Wire, length 150 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6950 mils, 5380 mils): Vertical Wire, length 70 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6950 mils, 5630 mils): Vertical Wire, length 100 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6950 mils, 5450 mils): Vertical Wire, length 180 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6950 mils, 5730 mils): Vertical Wire, length 100 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6950 mils, 5830 mils): Vertical Wire, length 150 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6950 mils, 5980 mils): Vertical Wire, length 100 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6950 mils, 6080 mils): Vertical Wire, length 150 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6950 mils, 6230 mils): Vertical Wire, length 100 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6950 mils, 6330 mils): Vertical Wire, length 100 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6950 mils, 6430 mils): Vertical Wire, length 120 mils
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(7100 mils, 3600 mils): Symbol C13 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(7300 mils, 3600 mils): Symbol C14 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(7500 mils, 3600 mils): Symbol C15 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(7700 mils, 3600 mils): Symbol C16 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(7900 mils, 3600 mils): Symbol C17 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(8100 mils, 3600 mils): Symbol C18 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(8300 mils, 3600 mils): Symbol C35 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(8500 mils, 3600 mils): Symbol C36 [C]
+[four_way_junction]: Four items connected at 2159000, 1028700
+    ; warning
+    @(8700 mils, 4050 mils): Horizontal Wire, length 200 mils
+    @(8300 mils, 4050 mils): Horizontal Wire, length 200 mils
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(8700 mils, 3600 mils): Symbol C37 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(8900 mils, 3600 mils): Symbol C38 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9100 mils, 3600 mils): Symbol C39 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9300 mils, 3600 mils): Symbol C40 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9500 mils, 3600 mils): Symbol C41 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9700 mils, 3600 mils): Symbol C42 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(10600 mils, 3300 mils): Symbol LB4 [FerriteBead]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(10850 mils, 3700 mils): Symbol D8 [D_TVS]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(3500 mils, 5900 mils): Symbol C43 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(3550 mils, 2000 mils): Symbol C26 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(3950 mils, 5650 mils): Symbol LB5 [FerriteBead]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4000 mils, 1750 mils): Symbol LB2 [FerriteBead]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4350 mils, 4200 mils): Symbol R338 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4350 mils, 8000 mils): Symbol R340 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4750 mils, 6450 mils): Symbol R146 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4800 mils, 2550 mils): Symbol R36 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4900 mils, 5650 mils): Symbol R145 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(4950 mils, 1750 mils): Symbol R35 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(5100 mils, 7750 mils): Symbol U7 [LM2902]
+[lib_symbol_mismatch]: Symbol 'LM2902' doesn't match copy in library 'Amplifier_Operational'
+    ; warning
+    @(5100 mils, 7750 mils): Symbol U7 [LM2902]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(5300 mils, 3850 mils): Symbol U7 [LM2902]
+[lib_symbol_mismatch]: Symbol 'LM2902' doesn't match copy in library 'Amplifier_Operational'
+    ; warning
+    @(5300 mils, 3850 mils): Symbol U7 [LM2902]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(5300 mils, 6550 mils): Symbol Q70 [AO3400A]
+[lib_symbol_mismatch]: Symbol 'AO3400A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(5300 mils, 6550 mils): Symbol Q70 [AO3400A]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(5350 mils, 2650 mils): Symbol Q64 [AO3400A]
+[lib_symbol_mismatch]: Symbol 'AO3400A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(5350 mils, 2650 mils): Symbol Q64 [AO3400A]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(6000 mils, 3850 mils): Symbol R37 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(6000 mils, 7750 mils): Symbol R147 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(6350 mils, 4200 mils): Symbol R38 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(6350 mils, 8100 mils): Symbol R148 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(6400 mils, 1850 mils): Symbol Q62 [AO3401A]
+[lib_symbol_mismatch]: Symbol 'AO3401A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(6400 mils, 1850 mils): Symbol Q62 [AO3401A]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(6400 mils, 2400 mils): Symbol R39 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(6400 mils, 5750 mils): Symbol Q68 [AO3401A]
+[lib_symbol_mismatch]: Symbol 'AO3401A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(6400 mils, 5750 mils): Symbol Q68 [AO3401A]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(6400 mils, 6300 mils): Symbol R149 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(6600 mils, 3000 mils): Symbol Q63 [Q_NPN]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(6600 mils, 6900 mils): Symbol Q69 [Q_NPN]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(6800 mils, 6000 mils): Symbol R150 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(6850 mils, 2150 mils): Symbol R47 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(6850 mils, 8000 mils): Symbol D16 [BAV99]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(6900 mils, 4150 mils): Symbol D7 [BAV99]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(7250 mils, 6900 mils): Symbol R151 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(7300 mils, 3000 mils): Symbol R63 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(8100 mils, 9400 mils): Symbol U7 [LM2902]
+[lib_symbol_mismatch]: Symbol 'LM2902' doesn't match copy in library 'Amplifier_Operational'
+    ; warning
+    @(8100 mils, 9400 mils): Symbol U7 [LM2902]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(8750 mils, 5900 mils): Symbol C73 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9150 mils, 2000 mils): Symbol C28 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9250 mils, 5650 mils): Symbol LB6 [FerriteBead]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9600 mils, 1750 mils): Symbol LB3 [FerriteBead]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(9600 mils, 8050 mils): Symbol R341 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(10000 mils, 4100 mils): Symbol R339 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(10000 mils, 6450 mils): Symbol R153 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(10200 mils, 5650 mils): Symbol R152 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(10350 mils, 7750 mils): Symbol U7 [LM2902]
+[lib_symbol_mismatch]: Symbol 'LM2902' doesn't match copy in library 'Amplifier_Operational'
+    ; warning
+    @(10350 mils, 7750 mils): Symbol U7 [LM2902]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(10400 mils, 2550 mils): Symbol R65 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(10550 mils, 1750 mils): Symbol R64 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(10550 mils, 6550 mils): Symbol Q73 [AO3400A]
+[lib_symbol_mismatch]: Symbol 'AO3400A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(10550 mils, 6550 mils): Symbol Q73 [AO3400A]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(10900 mils, 3850 mils): Symbol U7 [LM2902]
+[lib_symbol_mismatch]: Symbol 'LM2902' doesn't match copy in library 'Amplifier_Operational'
+    ; warning
+    @(10900 mils, 3850 mils): Symbol U7 [LM2902]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(10950 mils, 2650 mils): Symbol Q67 [AO3400A]
+[lib_symbol_mismatch]: Symbol 'AO3400A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(10950 mils, 2650 mils): Symbol Q67 [AO3400A]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(11250 mils, 7750 mils): Symbol R154 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(11600 mils, 8100 mils): Symbol R155 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(11650 mils, 3850 mils): Symbol R140 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(11650 mils, 5750 mils): Symbol Q71 [AO3401A]
+[lib_symbol_mismatch]: Symbol 'AO3401A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(11650 mils, 5750 mils): Symbol Q71 [AO3401A]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(11650 mils, 6300 mils): Symbol R156 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(11850 mils, 6900 mils): Symbol Q72 [Q_NPN]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(12000 mils, 4200 mils): Symbol R141 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(12050 mils, 1850 mils): Symbol Q65 [AO3401A]
+[lib_symbol_mismatch]: Symbol 'AO3401A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(12050 mils, 1850 mils): Symbol Q65 [AO3401A]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(12050 mils, 2400 mils): Symbol R142 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(12100 mils, 6050 mils): Symbol R157 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(12150 mils, 8000 mils): Symbol D31 [BAV99]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(12250 mils, 3000 mils): Symbol Q66 [Q_NPN]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(12450 mils, 2100 mils): Symbol R143 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(12550 mils, 4100 mils): Symbol D12 [BAV99]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(12550 mils, 6900 mils): Symbol R158 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(12900 mils, 3000 mils): Symbol R144 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(14650 mils, 3650 mils): Symbol U28 [4051]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'pads_import'
+    ; warning
+    @(14650 mils, 3650 mils): Symbol U28 [4051]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(14650 mils, 7500 mils): Symbol U35 [4051]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'pads_import'
+    ; warning
+    @(14650 mils, 7500 mils): Symbol U35 [4051]
+
+***** Sheet /PWR/
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(2250 mils, 6950 mils): Symbol U33 Pin 6 [VCC, Unspecified, Line]
+    @(1850 mils, 6600 mils): Symbol R96 Pin 1 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(4700 mils, 2100 mils): Symbol U29 Pin 6 [VCC, Unspecified, Line]
+    @(4300 mils, 1750 mils): Symbol R200 Pin 1 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(9250 mils, 2000 mils): Symbol U8 Pin 3 [VI, Unspecified, Line]
+    @(8250 mils, 2300 mils): Symbol D43 Pin 1 [A1, Passive, Line]
+
+***** Sheet /MCU/
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(5310 mils, 1860 mils): Symbol U6 Pin 35 [PA1/U2_RTS/ADC1/T5_CH2/T2_CH2, Unspecified, Line]
+    @(5310 mils, 1980 mils): Symbol U6 Pin 36 [PA2/U2_TX/ADC2/T5_CH3/T2_CH3, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(5310 mils, 1980 mils): Symbol U6 Pin 36 [PA2/U2_TX/ADC2/T5_CH3/T2_CH3, Unspecified, Line]
+    @(5310 mils, 2100 mils): Symbol U6 Pin 37 [PA3/U2_RX/ADC3/T5_CH4/T2_CH4, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(5310 mils, 2100 mils): Symbol U6 Pin 37 [PA3/U2_RX/ADC3/T5_CH4/T2_CH4, Unspecified, Line]
+    @(4840 mils, 4040 mils): Symbol R62 Pin 1 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(5310 mils, 2820 mils): Symbol U6 Pin 101 [PA9/U1_TX/T1_CH2, Unspecified, Line]
+    @(1700 mils, 9050 mils): Symbol J45 Pin 2 [Pin_2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(5310 mils, 2940 mils): Symbol U6 Pin 102 [PA10/U1_RX/T1_CH3, Unspecified, Line]
+    @(1700 mils, 9150 mils): Symbol J45 Pin 3 [Pin_3, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(5310 mils, 3300 mils): Symbol U6 Pin 105 [PA13/JTMS-SWDIO, Unspecified, Line]
+    @(2050 mils, 6200 mils): Symbol R44 Pin 1 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(5310 mils, 3420 mils): Symbol U6 Pin 109 [PA14/JTCK-SWCLK, Unspecified, Line]
+    @(2050 mils, 5900 mils): Symbol R41 Pin 1 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(5310 mils, 3540 mils): Symbol U6 Pin 110 [PA15/JDTI/SPI1_NSS/I2S3_WS/T2_CH1_ETR, Unspecified, Line]
+    @(2050 mils, 5800 mils): Symbol R40 Pin 1 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(5310 mils, 3900 mils): Symbol U6 Pin 47 [PB1/ADC9/T3_CH4/T8_CH3N, Unspecified, Line]
+    @(10350 mils, 7900 mils): Symbol R285 Pin 1 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(5310 mils, 4020 mils): Symbol U6 Pin 48 [PB2, Unspecified, Line]
+    @(5140 mils, 4040 mils): Symbol R62 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(5310 mils, 4140 mils): Symbol U6 Pin 133 [PB3/JTDO/SPI3_SCK/I2S3_CK/T2_CH2, Unspecified, Line]
+    @(2050 mils, 6000 mils): Symbol R42 Pin 1 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(5310 mils, 4260 mils): Symbol U6 Pin 134 [PB4/NJTRST/SPI3_,ISO, Unspecified, Line]
+    @(2050 mils, 6100 mils): Symbol R43 Pin 1 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Output are connected
+    ; warning
+    @(5310 mils, 4500 mils): Symbol U6 Pin 136 [PB6/I2C1_SCL/T4_CH1/U1_TX, Unspecified, Line]
+    @(11750 mils, 9450 mils): Symbol U23 Pin 4 [Output, Inverted]
+[pin_to_pin]: Pins of type Unspecified and Output are connected
+    ; warning
+    @(5310 mils, 4620 mils): Symbol U6 Pin 137 [PB7/I2C1_SDA/FSMC_NADV/T4_CH2/U1_RX, Unspecified, Line]
+    @(5500 mils, 9250 mils): Symbol U1 Pin 4 [Output, Inverted]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(5310 mils, 5220 mils): Symbol U6 Pin 73 [PB12/SPI2_NSS/I2C2_WS/U3_CTS, Unspecified, Line]
+    @(5950 mils, 8700 mils): Symbol J9 Pin 8 [Pin_8, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(5310 mils, 5340 mils): Symbol U6 Pin 74 [PB13/SPI2_SCK/I2S2_CK/U3_CTS/T1_CH1N, Unspecified, Line]
+    @(5450 mils, 8700 mils): Symbol J9 Pin 7 [Pin_7, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(5310 mils, 5460 mils): Symbol U6 Pin 75 [PB14/SPI2_MISO/T1_CH2N/U3_RTS, Unspecified, Line]
+    @(5950 mils, 8600 mils): Symbol J9 Pin 6 [Pin_6, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(5310 mils, 5580 mils): Symbol U6 Pin 76 [PB15/SPI2_MOSI/TIM1_CH3N, Unspecified, Line]
+    @(5450 mils, 8600 mils): Symbol J9 Pin 5 [Pin_5, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(5310 mils, 5820 mils): Symbol U6 Pin 26 [PC0/ADC10, Unspecified, Line]
+    @(5950 mils, 8900 mils): Symbol J9 Pin 12 [Pin_12, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(5310 mils, 5940 mils): Symbol U6 Pin 27 [PC1/ADC11, Unspecified, Line]
+    @(5450 mils, 8900 mils): Symbol J9 Pin 11 [Pin_11, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(5310 mils, 6060 mils): Symbol U6 Pin 28 [PC2/ADC12, Unspecified, Line]
+    @(5950 mils, 8800 mils): Symbol J9 Pin 10 [Pin_10, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(5310 mils, 6180 mils): Symbol U6 Pin 29 [PC3/ADC13, Unspecified, Line]
+    @(5450 mils, 8800 mils): Symbol J9 Pin 9 [Pin_9, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(5310 mils, 6300 mils): Symbol U6 Pin 44 [PC4/ADC14, Unspecified, Line]
+    @(5450 mils, 8500 mils): Symbol J9 Pin 3 [Pin_3, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(5310 mils, 6420 mils): Symbol U6 Pin 45 [PC5/ADC15, Unspecified, Line]
+    @(5450 mils, 8400 mils): Symbol J9 Pin 1 [Pin_1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(5310 mils, 6540 mils): Symbol U6 Pin 96 [PC6/I2S2_MCK/T8_CH1/SDIO_D6, Unspecified, Line]
+    @(9050 mils, 5650 mils): Symbol R180 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(5310 mils, 6660 mils): Symbol U6 Pin 97 [PC7/I2S3_MCK/T8_CH2/SDIO_D7, Unspecified, Line]
+    @(9100 mils, 2350 mils): Symbol R172 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(5310 mils, 6780 mils): Symbol U6 Pin 98 [PC8/T8_CH3/SDIO_D0, Unspecified, Line]
+    @(1200 mils, 5650 mils): Symbol R164 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(5310 mils, 6900 mils): Symbol U6 Pin 99 [PC9/T8_CH4/SDIO_D1, Unspecified, Line]
+    @(1250 mils, 2350 mils): Symbol R9 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(5310 mils, 7020 mils): Symbol U6 Pin 111 [PC10/U4_TX/SDIO_D2, Unspecified, Line]
+    @(5950 mils, 9000 mils): Symbol J9 Pin 14 [Pin_14, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(5310 mils, 7620 mils): Symbol U6 Pin 9 [PC15-OSC32_OUT, Unspecified, Line]
+    @(16000 mils, 7350 mils): Symbol R136 Pin 1 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(5310 mils, 8700 mils): Symbol U6 Pin 123 [PD7/FSMC_NE1/FSMC_NEC2/U2_CK, Unspecified, Line]
+    @(5100 mils, 7650 mils): Symbol R318 Pin 1 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(5310 mils, 8940 mils): Symbol U6 Pin 78 [PD9/FSMC_D14/U3_RX, Unspecified, Line]
+    @(10400 mils, 3150 mils): Symbol R304 Pin 1 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(5310 mils, 9060 mils): Symbol U6 Pin 79 [PD10/FSMC_D15, Unspecified, Line]
+    @(15650 mils, 3100 mils): Symbol R311 Pin 1 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Tri-state are connected
+    ; warning
+    @(5310 mils, 9420 mils): Symbol U6 Pin 82 [PD13/FSMC_A18, Unspecified, Line]
+    @(2750 mils, 5200 mils): Symbol U2 Pin 6 [A4, Tri-state, Line]
+[pin_to_pin]: Pins of type Unspecified and Tri-state are connected
+    ; warning
+    @(5310 mils, 9540 mils): Symbol U6 Pin 85 [PD14/FSMC_D0, Unspecified, Line]
+    @(2750 mils, 5100 mils): Symbol U2 Pin 5 [A3, Tri-state, Line]
+[pin_to_pin]: Pins of type Unspecified and Tri-state are connected
+    ; warning
+    @(5310 mils, 9660 mils): Symbol U6 Pin 86 [PD15/FSMC_D1, Unspecified, Line]
+    @(2750 mils, 5000 mils): Symbol U2 Pin 4 [A2, Tri-state, Line]
+
+***** Sheet /PWR_MCU/
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(4700 mils, 4180 mils): Symbol U6 Pin 25 [NRST, Unspecified, Line]
+    @(3350 mils, 5900 mils): Symbol R45 Pin 1 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(4700 mils, 4280 mils): Symbol U6 Pin 138 [BOOT0, Unspecified, Line]
+    @(3900 mils, 4400 mils): Symbol R30 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(6700 mils, 5030 mils): Symbol U6 Pin 71 [VSS-1, Bidirectional, Line]
+    @(3250 mils, 6100 mils): Symbol U2 Pin 10 [GND, Power output, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(6700 mils, 5130 mils): Symbol U6 Pin 107 [VSS-2, Bidirectional, Line]
+    @(3250 mils, 6100 mils): Symbol U2 Pin 10 [GND, Power output, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(6700 mils, 5230 mils): Symbol U6 Pin 143 [VSS-3, Bidirectional, Line]
+    @(3250 mils, 6100 mils): Symbol U2 Pin 10 [GND, Power output, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(6700 mils, 5380 mils): Symbol U6 Pin 38 [VSS-4, Bidirectional, Line]
+    @(3250 mils, 6100 mils): Symbol U2 Pin 10 [GND, Power output, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(6700 mils, 5480 mils): Symbol U6 Pin 16 [VSS-5, Bidirectional, Line]
+    @(3250 mils, 6100 mils): Symbol U2 Pin 10 [GND, Power output, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(6700 mils, 5630 mils): Symbol U6 Pin 51 [VSS-6, Bidirectional, Line]
+    @(3250 mils, 6100 mils): Symbol U2 Pin 10 [GND, Power output, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(6700 mils, 5730 mils): Symbol U6 Pin 61 [VSS-7, Bidirectional, Line]
+    @(3250 mils, 6100 mils): Symbol U2 Pin 10 [GND, Power output, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(6700 mils, 5830 mils): Symbol U6 Pin 83 [VSS-8, Bidirectional, Line]
+    @(3250 mils, 6100 mils): Symbol U2 Pin 10 [GND, Power output, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(6700 mils, 5980 mils): Symbol U6 Pin 94 [VSS-9, Bidirectional, Line]
+    @(3250 mils, 6100 mils): Symbol U2 Pin 10 [GND, Power output, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(6700 mils, 6080 mils): Symbol U6 Pin 120 [VSS-10, Bidirectional, Line]
+    @(3250 mils, 6100 mils): Symbol U2 Pin 10 [GND, Power output, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(6700 mils, 6230 mils): Symbol U6 Pin 130 [VSS-11, Bidirectional, Line]
+    @(3250 mils, 6100 mils): Symbol U2 Pin 10 [GND, Power output, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(6700 mils, 6330 mils): Symbol U6 Pin 30 [VSSA, Bidirectional, Line]
+    @(3250 mils, 6100 mils): Symbol U2 Pin 10 [GND, Power output, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(6700 mils, 6430 mils): Symbol U6 Pin 31 [VREF-, Bidirectional, Line]
+    @(3250 mils, 6100 mils): Symbol U2 Pin 10 [GND, Power output, Line]
+
+***** Sheet /UI1/
+[pin_to_pin]: Pins of type Unspecified and Output are connected
+    ; warning
+    @(8250 mils, 7750 mils): Symbol Q22 Pin 2 [G, Unspecified, Line]
+    @(5310 mils, 3780 mils): Symbol U6 Pin 46 [PB0/ADC8/T3_CH3/T8_CH2N, Output, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(13600 mils, 1250 mils): Symbol U34 Pin 4 [V+, Unspecified, Line]
+    @(1100 mils, 3900 mils): Symbol C21 Pin 1 [Passive, Line]
+
+***** Sheet /UI2/
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(6750 mils, 1350 mils): Symbol U38 Pin 4 [V+, Unspecified, Line]
+    @(8200 mils, 9750 mils): Symbol U42 Pin 4 [V+, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(8200 mils, 9750 mils): Symbol U42 Pin 4 [V+, Unspecified, Line]
+    @(8600 mils, 10000 mils): Symbol U50 Pin 4 [V+, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(8300 mils, 7250 mils): Symbol Q40 Pin 2 [G, Unspecified, Line]
+    @(5310 mils, 7380 mils): Symbol U6 Pin 7 [PC13-TAMPER-RTC, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(13900 mils, 7200 mils): Symbol Q43 Pin 2 [G, Unspecified, Line]
+    @(5310 mils, 7500 mils): Symbol U6 Pin 8 [PC14-OSC32_IN, Unspecified, Line]
+
+***** Sheet /UI3/
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(8300 mils, 3000 mils): Symbol Q49 Pin 2 [G, Unspecified, Line]
+    @(5310 mils, 8820 mils): Symbol U6 Pin 77 [PD8/FSMC_D13/U3_TX, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(8600 mils, 10000 mils): Symbol U50 Pin 4 [V+, Unspecified, Line]
+    @(10700 mils, 5650 mils): Symbol R301 Pin 1 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(10700 mils, 9100 mils): Symbol U9 Pin 11 [S0, Unspecified, Line]
+    @(14750 mils, 6600 mils): Symbol U35 Pin 11 [S0, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(10700 mils, 9200 mils): Symbol U9 Pin 10 [S1, Unspecified, Line]
+    @(14750 mils, 6700 mils): Symbol U35 Pin 10 [S1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(10700 mils, 9300 mils): Symbol U9 Pin 9 [S2, Unspecified, Line]
+    @(14750 mils, 6800 mils): Symbol U35 Pin 9 [S2, Unspecified, Line]
+[multiple_net_names]: Both ADC_C and 5V are attached to the same items; ADC_C will be used in the netlist
+    ; warning
+    @(10600 mils, 10000 mils): Global Label 'ADC_C'
+    @(10700 mils, 10000 mils): Symbol U9 Hidden pin 16 [5V, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(10700 mils, 10000 mils): Symbol U9 Pin 3 [Unspecified, Clock]
+    @(10700 mils, 10000 mils): Symbol U9 Hidden pin 7 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(10750 mils, 9400 mils): Symbol U9 Pin 6 [G, Unspecified, Input low]
+    @(10700 mils, 10000 mils): Symbol U9 Hidden pin 7 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(11600 mils, 9700 mils): Symbol U9 Pin 13 [B0, Unspecified, Clock]
+    @(4600 mils, 8550 mils): Symbol D29 Pin 3 [K, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(11600 mils, 9800 mils): Symbol U9 Pin 14 [B1, Unspecified, Clock]
+    @(9850 mils, 4050 mils): Symbol D27 Pin 3 [K, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(11600 mils, 9900 mils): Symbol U9 Pin 15 [B2, Unspecified, Clock]
+    @(4600 mils, 4000 mils): Symbol D26 Pin 3 [K, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(11600 mils, 10000 mils): Symbol U9 Pin 12 [B3, Unspecified, Clock]
+    @(14700 mils, 4150 mils): Symbol R308 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(11600 mils, 10100 mils): Symbol U9 Pin 1 [B4, Unspecified, Clock]
+    @(9850 mils, 8550 mils): Symbol D49 Pin 3 [K, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(11600 mils, 10300 mils): Symbol U9 Pin 2 [B6, Unspecified, Clock]
+    @(14500 mils, 8300 mils): Symbol R328 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(13500 mils, 950 mils): Symbol U46 Pin 4 [V+, Unspecified, Line]
+    @(8600 mils, 10000 mils): Symbol U50 Pin 4 [V+, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(13650 mils, 2950 mils): Symbol Q52 Pin 2 [G, Unspecified, Line]
+    @(5310 mils, 9180 mils): Symbol U6 Pin 80 [PD11/FSMC_A16, Unspecified, Line]
+
+***** Sheet /UI4/
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(7800 mils, 9500 mils): Symbol U7 Pin 4 [V+, Unspecified, Line]
+    @(8600 mils, 10000 mils): Symbol U50 Pin 4 [V+, Unspecified, Line]
+[multiple_net_names]: Both ADC_B and GND are attached to the same items; ADC_B will be used in the netlist
+    ; warning
+    @(14550 mils, 3650 mils): Global Label 'ADC_B'
+    @(11000 mils, 6450 mils): Global Label 'GND'
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(14650 mils, 2750 mils): Symbol U28 Pin 11 [S0, Unspecified, Line]
+    @(14750 mils, 6600 mils): Symbol U35 Pin 11 [S0, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(14650 mils, 2850 mils): Symbol U28 Pin 10 [S1, Unspecified, Line]
+    @(14750 mils, 6700 mils): Symbol U35 Pin 10 [S1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(14650 mils, 2950 mils): Symbol U28 Pin 9 [S2, Unspecified, Line]
+    @(14750 mils, 6800 mils): Symbol U35 Pin 9 [S2, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(14650 mils, 3650 mils): Symbol U28 Pin 3 [Unspecified, Clock]
+    @(14650 mils, 3650 mils): Symbol U28 Hidden pin 7 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(14700 mils, 3050 mils): Symbol U28 Pin 6 [G, Unspecified, Input low]
+    @(14650 mils, 3650 mils): Symbol U28 Hidden pin 7 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Output are connected
+    ; warning
+    @(14750 mils, 6600 mils): Symbol U35 Pin 11 [S0, Unspecified, Line]
+    @(10350 mils, 5060 mils): Symbol U6 Pin 22 [PF10/ADC8/FSMC_INTR, Output, Line]
+[pin_to_pin]: Pins of type Unspecified and Output are connected
+    ; warning
+    @(14750 mils, 6700 mils): Symbol U35 Pin 10 [S1, Unspecified, Line]
+    @(10350 mils, 4940 mils): Symbol U6 Pin 21 [PF9/ADC7/FSMC_CD, Output, Line]
+[pin_to_pin]: Pins of type Unspecified and Output are connected
+    ; warning
+    @(14750 mils, 6800 mils): Symbol U35 Pin 9 [S2, Unspecified, Line]
+    @(10350 mils, 4820 mils): Symbol U6 Pin 20 [PF8/ADC6/FSMC_NIOWR, Output, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(14750 mils, 6900 mils): Symbol U35 Pin 6 [G, Unspecified, Input low]
+    @(14550 mils, 7500 mils): Symbol U35 Hidden pin 7 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(14750 mils, 7500 mils): Symbol U35 Pin 3 [Unspecified, Clock]
+    @(14550 mils, 7500 mils): Symbol U35 Hidden pin 7 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(15450 mils, 7200 mils): Symbol U35 Pin 13 [B0, Unspecified, Clock]
+    @(9150 mils, 4300 mils): Symbol R105 Pin 1 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(15450 mils, 7300 mils): Symbol U35 Pin 14 [B1, Unspecified, Clock]
+    @(14800 mils, 8450 mils): Symbol R289 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(15450 mils, 7400 mils): Symbol U35 Pin 15 [B2, Unspecified, Clock]
+    @(9300 mils, 8950 mils): Symbol R282 Pin 1 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(15450 mils, 7500 mils): Symbol U35 Pin 12 [B3, Unspecified, Clock]
+    @(3900 mils, 4250 mils): Symbol R5 Pin 1 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(15450 mils, 7600 mils): Symbol U35 Pin 1 [B4, Unspecified, Clock]
+    @(12550 mils, 3900 mils): Symbol D12 Pin 3 [K, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(15450 mils, 7700 mils): Symbol U35 Pin 5 [B5, Unspecified, Clock]
+    @(12150 mils, 7800 mils): Symbol D31 Pin 3 [K, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(15450 mils, 7800 mils): Symbol U35 Pin 2 [B6, Unspecified, Clock]
+    @(6850 mils, 7800 mils): Symbol D16 Pin 3 [K, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(15450 mils, 7900 mils): Symbol U35 Pin 4 [B7, Unspecified, Clock]
+    @(6900 mils, 3950 mils): Symbol D7 Pin 3 [K, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(15550 mils, 3350 mils): Symbol U28 Pin 13 [B0, Unspecified, Clock]
+    @(14950 mils, 8400 mils): Symbol R133 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(15550 mils, 3450 mils): Symbol U28 Pin 14 [B1, Unspecified, Clock]
+    @(4050 mils, 8450 mils): Symbol R119 Pin 1 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(15550 mils, 3550 mils): Symbol U28 Pin 15 [B2, Unspecified, Clock]
+    @(14800 mils, 4250 mils): Symbol R112 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(15550 mils, 3650 mils): Symbol U28 Pin 12 [B3, Unspecified, Clock]
+    @(9300 mils, 8450 mils): Symbol R126 Pin 1 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(15550 mils, 3750 mils): Symbol U28 Pin 1 [B4, Unspecified, Clock]
+    @(4250 mils, 4350 mils): Symbol R258 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(15550 mils, 3850 mils): Symbol U28 Pin 5 [B5, Unspecified, Clock]
+    @(14800 mils, 4400 mils): Symbol R268 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(15550 mils, 3950 mils): Symbol U28 Pin 2 [B6, Unspecified, Clock]
+    @(9300 mils, 4400 mils): Symbol R218 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(15550 mils, 4050 mils): Symbol U28 Pin 4 [B7, Unspecified, Clock]
+    @(4050 mils, 8950 mils): Symbol R275 Pin 1 [Passive, Line]
+
+***** Sheet /AUOT_PI/
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(4050 mils, 1450 mils): Symbol U4 Pin 8 [V+, Unspecified, Line]
+    @(6550 mils, 1700 mils): Symbol R15 Pin 1 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(4500 mils, 4850 mils): Symbol U24 Pin 8 [V+, Unspecified, Line]
+    @(6500 mils, 5000 mils): Symbol R170 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(4800 mils, 8850 mils): Symbol U1 Pin 5 [VCC, Unspecified, Line]
+    @(3850 mils, 8250 mils): Symbol D2 Pin 2 [A, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(4800 mils, 9650 mils): Symbol U1 Pin 3 [GND, Unspecified, Line]
+    @(4050 mils, 9800 mils): Symbol C4 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(11050 mils, 9050 mils): Symbol U23 Pin 5 [VCC, Unspecified, Line]
+    @(10150 mils, 8450 mils): Symbol D30 Pin 2 [A, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(11050 mils, 9850 mils): Symbol U23 Pin 3 [GND, Unspecified, Line]
+    @(10350 mils, 10000 mils): Symbol C81 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(12200 mils, 1550 mils): Symbol U25 Pin 8 [V+, Unspecified, Line]
+    @(14400 mils, 1700 mils): Symbol R178 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(12200 mils, 4800 mils): Symbol U26 Pin 8 [V+, Unspecified, Line]
+    @(14350 mils, 5000 mils): Symbol R186 Pin 2 [Passive, Line]
+
+***** Sheet /SCR/
+[pin_to_pin]: Pins of type Tri-state and Output are connected
+    ; warning
+    @(2750 mils, 4800 mils): Symbol U2 Pin 2 [A0, Tri-state, Line]
+    @(10350 mils, 6260 mils): Symbol U6 Pin 88 [PG3/FSMC_A13, Output, Line]
+[pin_to_pin]: Pins of type Tri-state and Output are connected
+    ; warning
+    @(2750 mils, 4900 mils): Symbol U2 Pin 3 [A1, Tri-state, Line]
+    @(10350 mils, 6140 mils): Symbol U6 Pin 87 [PG2/FSMC_A12, Output, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(2750 mils, 5700 mils): Symbol U2 Pin 1 [A->B, Unspecified, Line]
+    @(1800 mils, 5800 mils): Symbol R74 Pin 1 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(3250 mils, 4500 mils): Symbol U2 Pin 20 [VCC, Unspecified, Line]
+    @(1800 mils, 5800 mils): Symbol R74 Pin 1 [Passive, Line]
+[pin_to_pin]: Pins of type Tri-state and Output are connected
+    ; warning
+    @(9800 mils, 4750 mils): Symbol U18 Pin 2 [A0, Tri-state, Line]
+    @(10350 mils, 6860 mils): Symbol U6 Pin 93 [PG8, Output, Line]
+[pin_to_pin]: Pins of type Tri-state and Output are connected
+    ; warning
+    @(9800 mils, 4850 mils): Symbol U18 Pin 3 [A1, Tri-state, Line]
+    @(10350 mils, 6740 mils): Symbol U6 Pin 92 [PG7/FSMC_INT3, Output, Line]
+[pin_to_pin]: Pins of type Tri-state and Output are connected
+    ; warning
+    @(9800 mils, 4950 mils): Symbol U18 Pin 4 [A2, Tri-state, Line]
+    @(10350 mils, 6620 mils): Symbol U6 Pin 91 [PG6/FSMC_INT2, Output, Line]
+[pin_to_pin]: Pins of type Tri-state and Output are connected
+    ; warning
+    @(9800 mils, 5050 mils): Symbol U18 Pin 5 [A3, Tri-state, Line]
+    @(10350 mils, 6500 mils): Symbol U6 Pin 90 [PG5/FSMC_A15, Output, Line]
+[pin_to_pin]: Pins of type Tri-state and Output are connected
+    ; warning
+    @(9800 mils, 5150 mils): Symbol U18 Pin 6 [A4, Tri-state, Line]
+    @(10350 mils, 6380 mils): Symbol U6 Pin 89 [PG4/FSMC_A14, Output, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(9800 mils, 5650 mils): Symbol U18 Pin 1 [A->B, Unspecified, Line]
+    @(8850 mils, 5750 mils): Symbol R85 Pin 1 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(10300 mils, 4450 mils): Symbol U18 Pin 20 [VCC, Unspecified, Line]
+    @(8850 mils, 5750 mils): Symbol R85 Pin 1 [Passive, Line]
+
+***** Sheet /
+
+ ** ERC messages: 1041  Errors 0  Warnings 1041
+
+ ** Ignored checks:
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

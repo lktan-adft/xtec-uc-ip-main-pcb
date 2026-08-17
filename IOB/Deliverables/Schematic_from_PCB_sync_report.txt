@@ -1,0 +1,446 @@
+Change R102 value from '10k ; 1%' to '10K 1%'.
+Change R125 value from '10k ; 1%' to 'RES'.
+Change R133 value from '4.7k ; 1%' to 'RES'.
+Change R220 value from '1M' to 'RES'.
+Change R2 value from '160 ; 1%' to '160R 1%'.
+Change Q35 value from 'AO3401A' to 'AO3401'.
+Change Q43 value from 'AO3400A' to 'AO3400'.
+Change R136 value from '4.7k ; 1%' to 'RES'.
+Change R115 value from '4.7k ; 1%' to 'RES'.
+Change R107 value from '100k' to 'RES'.
+Change R130 value from '10k ; 1%' to '10K 1%'.
+Change R1 value from '10k ; 1%' to '10K 1%'.
+Change Q38 value from 'AO3401A' to 'AO3401'.
+Change R108 value from '4.7k ; 1%' to 'RES'.
+Change R5 value from '4.7k ; 1%' to '4.7K1%'.
+Change R210 value from '1M' to 'RES'.
+Change R117 value from '160 ; 1%' to 'RES'.
+Change Q31 value from 'AO3400A' to 'AO3400'.
+Change Q32 value from 'AO3401A' to 'AO3401'.
+Change R120 value from '47k' to 'RES'.
+Change R134 value from '47k' to '47K'.
+Change R101 value from '4.7k ; 1%' to 'RES'.
+Change LB20 value from 'SMD Ferrite Bead 0603-120R±25%' to 'L-EMI'.
+Change LB15 value from 'SMD Ferrite Bead 0603-120R±25%' to 'L-EMI'.
+Change LB17 value from 'SMD Ferrite Bead 0603-120R±25%' to 'L-EMI'.
+Change LB16 value from 'SMD Ferrite Bead 0603-120R±25%' to 'L-EMI'.
+Change LB19 value from 'SMD Ferrite Bead 0603-120R±25%' to 'L-EMI'.
+Change R103 value from '160 ; 1%' to '160R 1%'.
+Change R118 value from '10k ; 1%' to 'RES'.
+Change R104 value from '10k ; 1%' to '10K1%'.
+Change R3 value from '10k ; 1%' to '10K1%'.
+Change Q29 value from 'AO3401A' to 'AO3401'.
+Change U38 value from 'LM2902' to 'LM324'.
+Change R119 value from '4.7k ; 1%' to '4.7K1%'.
+Change R111 value from '10k ; 1%' to '10K1%'.
+Change U42 value from 'LM2902' to 'LM324'.
+Change R121 value from '100k' to 'RES'.
+Change LB18 value from 'SMD Ferrite Bead 0603-120R±25%' to 'L-EMI'.
+Change R112 value from '4.7k ; 1%' to 'RES'.
+Change R123 value from '10k ; 1%' to '10K 1%'.
+Change R234 value from '1M' to 'RES'.
+Change R127 value from '47k' to '47K'.
+Change R128 value from '100k' to 'RES'.
+Change R124 value from '160 ; 1%' to '160R 1%'.
+Change R113 value from '47k' to 'RES'.
+Change R100 value from '100k' to 'RES'.
+Change Q41 value from 'AO3401A' to 'AO3401'.
+Change R122 value from '4.7k ; 1%' to '4.7K'.
+Change U38 value from 'LM2902' to 'LM324'.
+Change Q37 value from 'AO3400A' to 'AO3400'.
+Change R116 value from '10k ; 1%' to '10K 1%'.
+Change R110 value from '160 ; 1%' to 'RES'.
+Change R99 value from '47k' to 'RES'.
+Change R215 value from '1M' to 'RES'.
+Change U38 value from 'LM2902' to 'LM324'.
+Change R131 value from '160 ; 1%' to 'RES'.
+Change U42 value from 'LM2902' to 'LM324'.
+Change R216 value from '1M' to 'RES'.
+Change R105 value from '4.7k ; 1%' to 'RES'.
+Change R211 value from '1M' to 'RES'.
+Change R109 value from '10k ; 1%' to '10K 1%'.
+Change Q40 value from 'AO3400A' to 'AO3400'.
+Change U42 value from 'LM2902' to 'LM324'.
+Change U42 value from 'LM2902' to 'LM324'.
+Change Q28 value from 'AO3400A' to 'AO3400'.
+Change R106 value from '47k' to 'RES'.
+Change R135 value from '100k' to '100K'.
+Change Q34 value from 'AO3400A' to 'AO3400'.
+Change R132 value from '10k ; 1%' to 'RES'.
+Change R114 value from '100k' to 'RES'.
+Change Q26 value from 'AO3401A' to 'AO3401'.
+Change U42 value from 'LM2902' to 'LM324'.
+Change R129 value from '4.7k ; 1%' to 'RES'.
+Change R126 value from '4.7k ; 1%' to 'RES'.
+Change J9 value from '2.0mm 7X2 SMT Pin Header' to 'HEAD-7PX2'.
+Change J37 value from 'Terminal Block KF235-5.0-5P' to 'SL-CON-SIP10-200'.
+Change J31 value from 'Terminal Block KF235-5.0-6P' to 'SL-CON-SIP12-200'.
+Change J7 value from 'Terminal Block KF235-5.0-3P' to 'SL-CON-SIP6-200'.
+Change J12 value from 'Terminal Block KF235-5.0-6P' to 'SL-CON-SIP12-200'.
+Change J5 value from 'Terminal Block KF235-5.0-6P' to 'SL-CON-SIP12-200'.
+Change J33 value from 'Terminal Block KF235-5.0-3P' to 'SL-CON-SIP6-200'.
+Change J10 value from 'Terminal Block KF235-5.0-6P' to 'SL-CON-SIP12-200'.
+Change J51 value from 'Terminal Block KF235-5.0-6P' to 'SL-CON-SIP12-200'.
+Change J48 value from 'Terminal Block KF235-5.0-6P' to 'SL-CON-SIP12-200'.
+Change J38 value from 'Terminal Block KF235-5.0-5P' to 'SL-CON-SIP10-200'.
+Change U34 value from 'LM2902' to 'LM324'.
+Change R281 value from '10k ; 1%' to 'RES'.
+Change U34 value from 'LM2902' to 'LM324'.
+Change Q9 value from 'AO3400A' to 'AO3400'.
+Change R292 value from '4.7k ; 1%' to 'RES'.
+Change R279 value from '10k ; 1%' to 'RES'.
+Change R276 value from '47k' to 'RES'.
+Change R288 value from '10k ; 1%' to 'RES'.
+Change R283 value from '47k' to 'RES'.
+Change Q25 value from 'AO3400A' to 'AO3400'.
+Change Q15 value from 'AO3400A' to 'AO3400'.
+Change R278 value from '4.7k ; 1%' to 'RES'.
+Change R277 value from '100k' to 'RES'.
+Change R218 value from '4.7k ; 1%' to '4.7K1%'.
+Change R257 value from '10k ; 1%' to 'RES'.
+Change R270 value from '100k' to 'RES'.
+Change C2 value from '100nF' to 'CAP'.
+Change R209 value from '1M' to 'RES'.
+Change R161 value from '1M' to 'RES'.
+Change R275 value from '4.7k ; 1%' to 'RES'.
+Change Q13 value from 'AO3401A' to 'AO3401'.
+Change LB14 value from 'SMD Ferrite Bead 0603-120R±25%' to 'L-EMI'.
+Change LB11 value from 'SMD Ferrite Bead 0603-120R±25%' to 'L-EMI'.
+Change LB10 value from 'SMD Ferrite Bead 0603-120R±25%' to 'L-EMI'.
+Change LB13 value from 'SMD Ferrite Bead 0603-120R±25%' to 'L-EMI'.
+Change LB12 value from 'SMD Ferrite Bead 0603-120R±25%' to 'L-EMI'.
+Change R284 value from '100k' to 'RES'.
+Change R219 value from '10k ; 1%' to '10K 1%'.
+Change U38 value from 'LM2902' to 'LM324'.
+Change R272 value from '10k ; 1%' to '10K 1%'.
+Change R258 value from '4.7k ; 1%' to '4.7K1%'.
+Change LB9 value from 'SMD Ferrite Bead 0603-120R±25%' to 'L-EMI'.
+Change R286 value from '10k ; 1%' to 'RES'.
+Change Q12 value from 'AO3400A' to 'AO3400'.
+Change C24 value from '100nF' to 'CAP'.
+Change R266 value from '160 ; 1%' to 'RES'.
+Change C20 value from '100nF' to 'CAP'.
+Change R269 value from '47k' to 'RES'.
+Change Q19 value from 'AO3400A' to 'AO3400'.
+Change R267 value from '10k ; 1%' to 'RES'.
+Change Q16 value from 'AO3401A' to 'AO3401'.
+Change R213 value from '10k ; 1%' to '10K 1%'.
+Change R163 value from '1M' to 'RES'.
+Change R273 value from '160 ; 1%' to '160R 1%'.
+Change R256 value from '160 ; 1%' to 'RES'.
+Change Q22 value from 'AO3400A' to 'AO3400'.
+Change R261 value from '4.7k ; 1%' to 'RES'.
+Change R259 value from '47k' to 'RES'.
+Change R271 value from '4.7k ; 1%' to 'RES'.
+Change U34 value from 'LM2902' to 'LM324'.
+Change Q23 value from 'AO3401A' to 'AO3401'.
+Change U34 value from 'LM2902' to 'LM324'.
+Change R217 value from '10k ; 1%' to '10K1%'.
+Change R159 value from '1M' to 'RES'.
+Change C23 value from '100nF' to 'CAP'.
+Change Q17 value from 'AO3401A' to 'AO3401'.
+Change R260 value from '100k' to 'RES'.
+Change U38 value from 'LM2902' to 'LM324'.
+Change R160 value from '1M' to 'RES'.
+Change R285 value from '4.7k ; 1%' to 'RES'.
+Change R289 value from '4.7k ; 1%' to 'RES'.
+Change R287 value from '160 ; 1%' to 'RES'.
+Change R265 value from '10k ; 1%' to 'RES'.
+Change R268 value from '4.7k ; 1%' to 'RES'.
+Change Q20 value from 'AO3401A' to 'AO3401'.
+Change R290 value from '47k' to 'RES'.
+Change R264 value from '4.7k ; 1%' to 'RES'.
+Change R162 value from '1M' to 'RES'.
+Change R280 value from '160 ; 1%' to 'RES'.
+Change C22 value from '100nF' to 'CAP'.
+Change R262 value from '47k' to 'RES'.
+Change R263 value from '100k' to 'RES'.
+Change R291 value from '100k' to 'RES'.
+Change Q10 value from 'AO3401A' to 'AO3401'.
+Change R214 value from '160 ; 1%' to '160R 1%'.
+Change R274 value from '10k ; 1%' to 'RES'.
+Change C21 value from '100nF' to 'CAP'.
+Change U34 value from 'LM2902' to 'LM324'.
+Change R282 value from '4.7k ; 1%' to 'RES'.
+Change C16 value from '100nF' to 'CAP'.
+Change R27 value from '1M' to '33R'.
+Change R31 value from '10k ; 1%' to '10K'.
+Change R30 value from '100k' to '100K'.
+Change U6 value from 'STM32F103ZET6' to 'STM32F103-144'.
+Change J4 value from 'Pin Header 2P SIP-2P-100' to 'HEAD-2P'.
+Change Y1 value from 'XTAL HC49 SMT' to '8M'.
+Change LB4 value from 'SMT Bead 0603-120R±25%' to '120R/3A'.
+Change R221 value from '1k ; 1%' to '1K'.
+Change R62 value from '10k ; 1%' to '10K'.
+Change R42 value from '33' to '33R'.
+Change R43 value from '33' to '33R'.
+Change R40 value from '33' to '33R'.
+Change R41 value from '33' to '33R'.
+Change R44 value from '33' to '33R'.
+Change R45 value from '3.3k' to '3.3K'.
+Change U6 value from 'STM32F103ZET6' to 'STM32F103-144'.
+Change J45 value from 'Conn_01x04_Socket' to 'HEAD-4P'.
+Change D48 value from 'LED GREEN ; DNI' to 'LED_Green'.
+Change D48 'Do not populate' from 'true' to 'false'.
+Change J6 value from 'Pin Header SIP-4X2-100' to 'HEAD-4PX2'.
+Change R310 value from '100k' to 'RES'.
+Change U46 value from 'LM2902' to 'LM324'.
+Change U46 value from 'LM2902' to 'LM324'.
+Change Q44 value from 'AO3401A' to 'AO3401'.
+Change R330 value from '47k' to 'RES'.
+Change R293 value from '4.7k ; 1%' to 'RES'.
+Change R297 value from '10k ; 1%' to 'RES'.
+Change R295 value from '160 ; 1%' to '160R 1%'.
+Change R294 value from '10k ; 1%' to '10K 1%'.
+Change R298 value from '4.7k ; 1%' to 'RES'.
+Change R226 value from '10k ; 1%' to '10K1%'.
+Change R227 value from '4.7k ; 1%' to 'RES'.
+Change R225 value from '160 ; 1%' to 'RES'.
+Change R235 value from '1M' to 'RES'.
+Change R332 value from '4.7k ; 1%' to 'RES'.
+Change R333 value from '1M' to 'RES'.
+Change R334 value from '1M' to 'RES'.
+Change R335 value from '1M' to 'RES'.
+Change R336 value from '1M' to 'RES'.
+Change R337 value from '1M' to 'RES'.
+Change R329 value from '4.7k ; 1%' to 'RES'.
+Change R328 value from '10k ; 1%' to 'RES'.
+Change R322 value from '4.7k ; 1%' to 'RES'.
+Change R321 value from '10k ; 1%' to 'RES'.
+Change R320 value from '160 ; 1%' to '160R 1%'.
+Change R327 value from '160 ; 1%' to 'RES'.
+Change R326 value from '10k ; 1%' to '10K 1%'.
+Change R325 value from '4.7k ; 1%' to 'RES'.
+Change R318 value from '4.7k ; 1%' to 'RES'.
+Change R319 value from '10k ; 1%' to '10K 1%'.
+Change R314 value from '10k ; 1%' to 'RES'.
+Change R315 value from '4.7k ; 1%' to 'RES'.
+Change R312 value from '10k ; 1%' to '10K 1%'.
+Change R313 value from '160 ; 1%' to 'RES'.
+Change R311 value from '4.7k ; 1%' to 'RES'.
+Change R305 value from '10k ; 1%' to '10K 1%'.
+Change R304 value from '4.7k ; 1%' to 'RES'.
+Change R307 value from '10k ; 1%' to 'RES'.
+Change R306 value from '160 ; 1%' to 'RES'.
+Change R308 value from '4.7k ; 1%' to 'RES'.
+Change Q52 value from 'AO3400A' to 'AO3400'.
+Change R323 value from '47k' to 'RES'.
+Change R137 value from '10k ; 1%' to '10K 1%'.
+Change U50 value from 'LM2902' to 'LM324'.
+Change LB24 value from 'SMD Ferrite Bead 0603-120R±25%' to 'L-EMI'.
+Change LB25 value from 'SMD Ferrite Bead 0603-120R±25%' to 'L-EMI'.
+Change LB26 value from 'SMD Ferrite Bead 0603-120R±25%' to 'L-EMI'.
+Change LB21 value from 'SMD Ferrite Bead 0603-120R±25%' to 'L-EMI'.
+Change LB22 value from 'SMD Ferrite Bead 0603-120R±25%' to 'L-EMI'.
+Change LB23 value from 'SMD Ferrite Bead 0603-120R±25%' to 'L-EMI'.
+Change R316 value from '47k' to 'RES'.
+Change Q47 value from 'AO3401A' to 'AO3401'.
+Change R303 value from '100k' to 'RES'.
+Change R317 value from '100k' to 'RES'.
+Change U46 value from 'LM2902' to 'LM324'.
+Change R309 value from '47k' to 'RES'.
+Change R324 value from '100k' to 'RES'.
+Change R331 value from '100k' to 'RES'.
+Change U50 value from 'LM2902' to 'LM324'.
+Change R302 value from '47k' to 'RES'.
+Change U9 value from 'TI SN74LV4051ADR' to 'CD4051'.
+Change Q61 value from 'AO3400A' to 'AO3400'.
+Change Q53 value from 'AO3401A' to 'AO3401'.
+Change Q46 value from 'AO3400A' to 'AO3400'.
+Change U50 value from 'LM2902' to 'LM324'.
+Change U50 value from 'LM2902' to 'LM324'.
+Change Q49 value from 'AO3400A' to 'AO3400'.
+Change Q50 value from 'AO3401A' to 'AO3401'.
+Change R229 value from '100k' to '100K'.
+Change Q58 value from 'AO3400A' to 'AO3400'.
+Change U46 value from 'LM2902' to 'LM324'.
+Change Q59 value from 'AO3401A' to 'AO3401'.
+Change Q55 value from 'AO3400A' to 'AO3400'.
+Change U46 value from 'LM2902' to 'LM324'.
+Change U50 value from 'LM2902' to 'LM324'.
+Change Q56 value from 'AO3401A' to 'AO3401'.
+Change R228 value from '47k' to 'RES'.
+Change J1 value from 'Slide Switch SS-HZ-12D07' to 'SL-CON-SIP5-200'.
+Change J8 value from 'Slide Switch SS-HZ-12D07' to 'SL-CON-SIP5-200'.
+Change U24 value from 'LM2904' to 'LM358'.
+Change U4 value from 'LM2904' to 'LM358'.
+Change R208 value from '100k' to '100K'.
+Change R207 value from '100k' to '100K'.
+Change U25 value from 'LM2904' to 'LM358'.
+Change R138 value from '5.1k' to '5.1K'.
+Change R139 value from '10k' to '10K'.
+Change R172 value from '120k' to '120K'.
+Change R173 value from '120k' to '120K'.
+Change R170 value from '270' to '270R'.
+Change R171 value from '330 ; 1%' to '330R 1%'.
+Change R176 value from '110k ; 1%' to '110K 1%'.
+Change R177 value from '226k ; 1%' to '226K 1%'.
+Change R174 value from '110k ; 1%' to '110K 1%'.
+Change R175 value from '226k ; 1%' to '226K 1%'.
+Change R178 value from '270' to '270R'.
+Change R179 value from '330 ; 1%' to '330R 1%'.
+Change R165 value from '120k' to '120K'.
+Change R164 value from '120k' to '120K'.
+Change R167 value from '226k ; 1%' to '226K 1%'.
+Change R166 value from '110k ; 1%' to '110K 1%'.
+Change R169 value from '226k ; 1%' to '226K 1%'.
+Change R168 value from '110k ; 1%' to '110K 1%'.
+Change R183 value from '226k ; 1%' to '226K 1%'.
+Change R182 value from '110k ; 1%' to '110K 1%'.
+Change R181 value from '120k' to '120K'.
+Change R180 value from '120k' to '120K'.
+Change R187 value from '330 ; 1%' to '330R 1%'.
+Change R186 value from '270' to '270R'.
+Change R185 value from '226k ; 1%' to '226K 1%'.
+Change R184 value from '110k ; 1%' to '110K 1%'.
+Change U4 value from 'LM2904' to 'LM358'.
+Change J13 value from 'Slide Switch SS-HZ-12D07' to 'SL-CON-SIP5-200'.
+Change R11 value from '110k ; 1%' to '110K 1%'.
+Change R10 value from '120k' to '120K'.
+Change R13 value from '110k ; 1%' to '110K 1%'.
+Change R12 value from '226k ; 1%' to '226K 1%'.
+Change R15 value from '270' to '270R'.
+Change R14 value from '226k ; 1%' to '226K 1%'.
+Change R16 value from '330 ; 1%' to '330R 1%'.
+Change J15 value from 'Slide Switch SS-HZ-12D07' to 'SL-CON-SIP5-200'.
+Change R9 value from '120k' to '120K'.
+Change R6 value from '10k' to '10K'.
+Change R4 value from '5.1k' to '5.1K'.
+Change J11 value from 'Slide Switch SS-HZ-12D07' to 'SL-CON-SIP5-200'.
+Change U24 value from 'LM2904' to 'LM358'.
+Change U26 value from 'LM2904' to 'LM358'.
+Change U24 value from 'LM2904' to 'LM358'.
+Change U25 value from 'LM2904' to 'LM358'.
+Change U26 value from 'LM2904' to 'LM358'.
+Change U26 value from 'LM2904' to 'LM358'.
+Change J14 value from 'Slide Switch SS-HZ-12D07' to 'SL-CON-SIP5-200'.
+Change U25 value from 'LM2904' to 'LM358'.
+Change U23 value from '74HC1G14W' to ''.
+Change U4 value from 'LM2904' to 'LM358'.
+Change U1 value from '74HC1G14W' to ''.
+Change R47 value from '100k' to 'RES'.
+Change U7 value from 'LM2902' to 'LM324'.
+Change R338 value from '1M' to 'RES'.
+Change R339 value from '1M' to 'RES'.
+Change R341 value from '1M' to 'RES'.
+Change R340 value from '1M' to 'RES'.
+Change R158 value from '4.7k ; 1%' to 'RES'.
+Change R154 value from '10k ; 1%' to 'RES'.
+Change R155 value from '4.7k ; 1%' to 'RES'.
+Change R151 value from '4.7k ; 1%' to 'RES'.
+Change R152 value from '10k ; 1%' to 'RES'.
+Change R153 value from '160 ; 1%' to '160R 1%'.
+Change R148 value from '4.7k ; 1%' to 'RES'.
+Change R147 value from '10k ; 1%' to 'RES'.
+Change R146 value from '160 ; 1%' to 'RES'.
+Change R145 value from '10k ; 1%' to '10K 1%'.
+Change R144 value from '4.7k ; 1%' to 'RES'.
+Change R141 value from '4.7k ; 1%' to 'RES'.
+Change R140 value from '10k ; 1%' to 'RES'.
+Change U35 value from 'TI SN74LV4051ADR' to 'MC74HC4051AD'.
+Change U28 value from 'TI SN74LV4051ADR' to 'MC74HC4051AD'.
+Change Q65 value from 'AO3401A' to 'AO3401'.
+Change R156 value from '47k' to '47K'.
+Change R142 value from '47k' to 'RES'.
+Change R39 value from '47k' to '47K'.
+Change LB6 value from 'SMD Ferrite Bead 0603-120R±25%' to 'L-EMI'.
+Change LB5 value from 'SMD Ferrite Bead 0603-120R±25%' to 'L-EMI'.
+Change LB2 value from 'SMD Ferrite Bead 0603-120R±25%' to 'L-EMI'.
+Change LB3 value from 'SMD Ferrite Bead 0603-120R±25%' to 'L-EMI'.
+Change Q67 value from 'AO3400A' to 'AO3400'.
+Change R38 value from '4.7k ; 1%' to '4.7K1%'.
+Change R37 value from '10k ; 1%' to 'RES'.
+Change R36 value from '160 ; 1%' to 'RES'.
+Change R35 value from '10k ; 1%' to '10K 1%'.
+Change R64 value from '10k ; 1%' to '10K 1%'.
+Change R65 value from '160 ; 1%' to 'RES'.
+Change R63 value from '4.7k ; 1%' to '4.7K'.
+Change R149 value from '47k' to '47K'.
+Change U7 value from 'LM2902' to 'LM324'.
+Change Q71 value from 'AO3401A' to 'AO3401'.
+Change R150 value from '100k' to '100K'.
+Change Q64 value from 'AO3400A' to 'AO3400'.
+Change R143 value from '100k' to '100K'.
+Change Q62 value from 'AO3401A' to 'AO3401'.
+Change Q68 value from 'AO3401A' to 'AO3401'.
+Change R157 value from '100k' to 'RES'.
+Change Q70 value from 'AO3400A' to 'AO3400'.
+Change U7 value from 'LM2902' to 'LM324'.
+Change Q73 value from 'AO3400A' to 'AO3400'.
+Change U7 value from 'LM2902' to 'LM324'.
+Change U7 value from 'LM2902' to 'LM324'.
+Change D42 value from 'SMBJ36CA' to 'TVS'.
+Change F3 value from 'BLX-A fuse holder' to ''.
+Change D41 value from 'SMD 1N4007' to 'DIODE'.
+Change D20 value from 'SS26 DO-214AA' to 'DIODE'.
+Change R33 value from '100' to '100R'.
+Change D51 value from 'LED RED ; DNI' to 'LED_Red'.
+Change D51 'Do not populate' from 'true' to 'false'.
+Change R296 value from '330' to 'RES'.
+Change R299 value from '4.9k ; 1%' to 'RES'.
+Change R200 value from '1' to '1R'.
+Change R212 value from '0 ; 1%' to '0R'.
+Change R230 value from '1k ; 1%' to '1K'.
+Change LB7 value from 'SMT Bead ACMS321611A-121' to '120R/3A'.
+Change R301 value from '330' to 'RES'.
+Change R300 value from '15k ; 1%' to 'RES'.
+Change R202 value from '3.6k ; 1%' to '3.6K 1%'.
+Change R198 value from '1' to '1R'.
+Change R199 value from '1' to '1R'.
+Change J41 value from 'Conn_01x04_Socket' to 'CON-SIP4'.
+Change U33 value from 'HTC MC34063AD' to 'NCP3063'.
+Change U29 value from 'HTC MC34063AD' to 'NCP3063'.
+Change C148 value from '100nF' to 'CAP'.
+Change C112 value from '470uF ; 10V' to '470uF/10V'.
+Change C25 value from '100nF' to 'CAP'.
+Change C30 value from '100nF' to 'CAP'.
+Change C32 value from '330uF ; 50V' to '330uF/50V'.
+Change R98 value from '11k ; 1%' to '11K 1%'.
+Change R95 value from '1' to '1R'.
+Change R94 value from '1' to '1R'.
+Change R97 value from '1k ; 1%' to '1K 1%'.
+Change R96 value from '1' to '1R'.
+Change C31 value from '100nF' to 'CAP'.
+Change C27 value from '100nF' to 'CAP'.
+Change C130 value from '100nF' to 'CAP'.
+Change R32 value from '100' to 'RES'.
+Change D77 value from 'TI TL431BIDR' to 'TL431'.
+Change C29 value from '100uF ; 25V' to 'CAP+'.
+Change R46 value from '100' to '100R'.
+Change C47 value from '100nF' to 'CAP'.
+Change D4 value from 'SMBJ24CA' to 'TVS'.
+Change R201 value from '1.2k  ; 1%' to '1.2K 1%'.
+Change C50 value from '100uF ; 25V' to '100uF/25V'.
+Change C8 value from '330uF ; 50V ; DNI' to 'CAP+'.
+Change C8 'Do not populate' from 'true' to 'false'.
+Change C19 value from '100nF' to 'CAP'.
+Change R34 value from '100' to 'RES'.
+Change C147 value from '100uF ; 25V' to '100uF/25V'.
+Change C132 value from '100nF' to 'CAP'.
+Change D44 value from 'SS26 DO-214AA' to 'DIODE'.
+Change U8 value from 'LM1117-3.3V' to 'LM117-3.3V'.
+Change J23 value from 'Conn_01x05_White_Socket(2.54-5P)' to 'HEAD-5P'.
+Change R85 value from '10k ; 1%' to '10K'.
+Change U17 value from 'BT136-600' to 'BT136'.
+Change U18 value from '74HC245' to '74LV245'.
+Change R83 value from '200' to '200R'.
+Change R90 value from '200' to '200R'.
+Change R81 value from '200' to '200R'.
+Change R7 value from '200' to '200R'.
+Change U16 value from 'BT136-600' to 'BT136'.
+Change R77 value from '200' to '200R'.
+Change U22 value from 'BT136-600' to 'BT136'.
+Change U21 value from 'BT136-600' to 'BT136'.
+Change U15 value from 'BT136-600' to 'BT136'.
+Change R88 value from '200' to '200R'.
+Change R74 value from '10k ; 1%' to '10K'.
+Change U19 value from 'BT136-600' to 'BT136'.
+Change U3 value from 'BT136-600' to 'BT136'.
+Change U13 value from 'BT136-600' to 'BT136'.
+Change U2 value from '74HC245' to '74LV245'.
+Change R79 value from '200' to '200R'.
+Change R92 value from '200' to '200R'.
+Change U20 value from 'BT136-600' to 'BT136'.
+Change U14 value from 'BT136-600' to 'BT136'.
+Change R86 value from '200' to '200R'.
+Change R75 value from '200' to '200R'.

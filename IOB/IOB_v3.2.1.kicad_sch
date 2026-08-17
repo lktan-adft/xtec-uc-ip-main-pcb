@@ -1,0 +1,477 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "097a1aec-8a20-40af-8698-04e41cd92a30")
+	(paper "B")
+	(title_block
+		(title "IOB v3.2.1")
+		(date "2026-08-11")
+		(rev "v3.2.1")
+		(company "ADF Technologies")
+		(comment 1 "Designer :  Umam")
+		(comment 2 "Checker : TBD")
+	)
+	(lib_symbols)
+	(sheet
+		(at 76.2 63.5)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "09d3a526-d237-4aa5-83aa-0f3c1c7f71e2")
+		(property "Sheetname" "UI2"
+			(at 76.2 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IOB V3.2.1_sheet6.kicad_sch"
+			(at 76.2 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "IOB_v3.2.1"
+				(path "/097a1aec-8a20-40af-8698-04e41cd92a30"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 12.7 12.7)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1c79b8d0-448f-4632-bf9a-64e9fd606a35")
+		(property "Sheetname" "SL1230IO V3.2.1"
+			(at 12.7 11.9884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IOB V3.2.1_sheet1.kicad_sch"
+			(at 12.7 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "IOB_v3.2.1"
+				(path "/097a1aec-8a20-40af-8698-04e41cd92a30"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 12.7 63.5)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "26d8d876-7168-4d82-a2ce-f905f2c7ecd9")
+		(property "Sheetname" "UI1"
+			(at 12.7 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IOB V3.2.1_sheet5.kicad_sch"
+			(at 12.7 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "IOB_v3.2.1"
+				(path "/097a1aec-8a20-40af-8698-04e41cd92a30"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 12.7)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2f4b066f-44af-497b-8548-7ec54f3b6ee7")
+		(property "Sheetname" "PWR_MCU"
+			(at 203.2 11.9884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IOB V3.2.1_sheet4.kicad_sch"
+			(at 203.2 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "IOB_v3.2.1"
+				(path "/097a1aec-8a20-40af-8698-04e41cd92a30"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 12.7)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "36e4f7d0-3cd1-4461-a7f4-2c219868edc1")
+		(property "Sheetname" "MCU"
+			(at 139.7 11.9884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IOB V3.2.1_sheet3.kicad_sch"
+			(at 139.7 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "IOB_v3.2.1"
+				(path "/097a1aec-8a20-40af-8698-04e41cd92a30"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 63.5)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "87421244-f65c-4484-8823-899dabca573f")
+		(property "Sheetname" "UI3"
+			(at 139.7 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IOB V3.2.1_sheet7.kicad_sch"
+			(at 139.7 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "IOB_v3.2.1"
+				(path "/097a1aec-8a20-40af-8698-04e41cd92a30"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 12.7 114.3)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a3186667-e045-488b-bb0a-89a11a4267f7")
+		(property "Sheetname" "AUOT_PI"
+			(at 12.7 113.5884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IOB V3.2.1_sheet9.kicad_sch"
+			(at 12.7 152.9846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "IOB_v3.2.1"
+				(path "/097a1aec-8a20-40af-8698-04e41cd92a30"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 63.5)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b3aae606-20c3-4fac-89c4-10fa35fa01cc")
+		(property "Sheetname" "UI4"
+			(at 203.2 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IOB V3.2.1_sheet8.kicad_sch"
+			(at 203.2 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "IOB_v3.2.1"
+				(path "/097a1aec-8a20-40af-8698-04e41cd92a30"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 12.7)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c45acfc1-4dbc-4fb0-be96-ba23dfa06efb")
+		(property "Sheetname" "PWR"
+			(at 76.2 11.9884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IOB V3.2.1_sheet2.kicad_sch"
+			(at 76.2 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "IOB_v3.2.1"
+				(path "/097a1aec-8a20-40af-8698-04e41cd92a30"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 114.3)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e46a65ee-d1fa-45b0-836d-ccc279656066")
+		(property "Sheetname" "SCR"
+			(at 76.2 113.5884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IOB V3.2.1_sheet10.kicad_sch"
+			(at 76.2 152.9846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "IOB_v3.2.1"
+				(path "/097a1aec-8a20-40af-8698-04e41cd92a30"
+					(page "10")
+				)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
