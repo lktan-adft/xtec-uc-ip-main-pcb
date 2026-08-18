@@ -17,3 +17,7 @@ changelog/gerber_*/
 # source. Attach relevant images to the PR manually if needed instead of
 # committing the whole render folder.
 diff_output/
+
+# tools/kicad-reports' sandboxed output (regenerable scratch comparison
+# output, never itself committed — see tools/kicad-reports/README.md).
+**/fresh_reports/

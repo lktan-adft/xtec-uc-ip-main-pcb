@@ -15,7 +15,7 @@ KiCad hardware repo for the UC-IP main PCB (currently: IOB board family). This R
   Run from inside the board's project folder (e.g. `IOB/`) so relative paths resolve. The container runs as uid 1000, so output files come back owned by your normal user — no `chown` needed on a typical single-user Linux dev machine.
 
 - **GitHub Copilot** — auto-reviews every PR that touches `.kicad_sch` / `.kicad_pcb` files, following the checklist in [.github/skills/kicad-review/SKILL.md](.github/skills/kicad-review/SKILL.md). Copilot refuses to review a PR once it exceeds ~20,000 changed lines, so keep raw Gerber/generated diffs out of the PR (see [Repo conventions](#repo-conventions) and `.gitattributes`/`.gitignore`) — Copilot should only ever be diffing the `.kicad_sch`/`.kicad_pcb` source and small docs.
-- **Claude Code** — run manually against the PR (diff, ERC/DRC delta, visual diff, stated intent) as a second automated pass before human sign-off. Unlike Copilot's PR review, Claude Code isn't limited by the PR's line count, so it can be pointed at the full local diff (including the raw gerber comparison) even when Copilot can't review the PR at all.
+- **Claude Code** — run manually against the PR (diff, ERC/DRC delta, visual diff, stated intent) as a second automated pass before human sign-off, via the [`pcb-review`](.claude/skills/pcb-review/SKILL.md) skill. Unlike Copilot's PR review, Claude Code isn't limited by the PR's line count, so it can be pointed at the full local diff (including the raw gerber comparison) even when Copilot can't review the PR at all. Writes its findings to `changelog/v<X>/claude_review/` (see [changelog/README.md](changelog/README.md)) instead of only a chat reply.
 
 ## Review process
 
@@ -98,7 +98,7 @@ sequenceDiagram
 5. **Update the changelog and peer checklist** in `changelog/` (`Changelog X1-<board> <date>.xlsx`, `Internal Peer Checklist - X1_<board>.xlsx`) — these are small and stay tracked in git.
 6. **Commit and open a PR** using the [PR template](.github/PULL_REQUEST_TEMPLATE.md) — fill in the summary, testing, and files-changed checklist. Attach ERC/DRC reports and the zipped visual diff.
 7. **Copilot auto-reviews** the PR using [.github/skills/kicad-review/SKILL.md](.github/skills/kicad-review/SKILL.md) — posts a plain-English changelog and flags.
-8. **Run Claude Code** against the PR (diff + ERC/DRC delta + visual diff + stated intent) for a second changelog and a ✅/⚠️/🛑 summary.
+8. **Run Claude Code** via the [`pcb-review`](.claude/skills/pcb-review/SKILL.md) skill — regenerates ERC/DRC and gerber diffs from source, cross-checks the diff against the changelog workbook and PR description, fills a Claude-reviewed copy of the peer checklist, and writes a second changelog + ✅/⚠️/🛑 summary to `changelog/v<X>/claude_review/`.
 9. **Human manual review** — cross-check both automated reviews against the actual diff images, verify mechanical fit/clearances/silkscreen/connector orientation, and confirm the stated test result actually supports the change.
 10. **Merge or send back.** Issues found → specific feedback to the engineer, loop back to step 1. Passed → approve and merge.
 11. **DFM with the manufacturer.** Send the fabrication package (`IOB/Gerber/` + BOM from `IOB/Deliverables/`, plus pick-and-place). DFM issues → feedback to the engineer, loop back to step 1. DFM passed → proceed to fabrication.
@@ -108,7 +108,7 @@ sequenceDiagram
 - Each board family lives in its own top-level folder (e.g. `IOB/`) containing the KiCad project. Version is carried in the filenames (`IOB_v3.2.1.kicad_pcb`, `IOB_v3.2.1.kicad_sch` + numbered sheet files), not the folder name — the folder itself stays unversioned across revisions.
 - `IOB/Deliverables/` holds generated exports for the current revision: PDF schematic print, BOM, ERC report, and the PCB↔schematic sync reports.
 - `IOB/Gerber/` holds the current revision's fabrication output (gerbers + drill files).
-- Top-level `changelog/` holds cross-revision artifacts: the changelog workbook and internal peer review checklist (tracked in git), plus `gerber_<new>_v.<old>/` folders with old/new gerber pairs for visual diffing (**not** tracked — see [changelog/README.md](changelog/README.md)).
+- Top-level `changelog/` holds cross-revision artifacts: the changelog workbook and internal peer review checklist (tracked in git), the [`pcb-review`](.claude/skills/pcb-review/SKILL.md) skill's `claude_review/` output (also tracked), plus `gerber_<new>_v.<old>/` folders with old/new gerber pairs for visual diffing (**not** tracked — see [changelog/README.md](changelog/README.md)).
 - `IOB/.history/` (KiCad's own local file-history backups) is gitignored — it's not project history, git is. Never commit it.
 - PR titles/descriptions should describe the *engineering* change and test result, not just "updated PCB" — both Copilot and Claude review against the stated intent, so a vague description gets flagged rather than rubber-stamped.
 - Every PR touching `.kicad_sch` or `.kicad_pcb` should include regenerated ERC/DRC reports so reviewers can diff violations before vs. after.
