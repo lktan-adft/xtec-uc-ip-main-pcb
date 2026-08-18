@@ -43,8 +43,9 @@ line-level source diff.
 | # | Stated | Verified how | Result |
 |---|---|---|---|
 | 1 | Mentor Pads → KiCad migration | Single baseline commit, KiCad project files present | ✅ consistent |
-| 2–5 | Symbol/cosmetic/silkscreen updates | No prior KiCad source to diff; not independently checkable this pass | — not verified |
-| 6, 7, 9, 10 | U6 pins 35/36/69/70 net changes | Not traced pin-by-pin; indirectly supported by clean sync reports (below) | ⚠️ not individually confirmed |
+| 2, 3, 5 | Symbol/cosmetic/silkscreen updates | No prior KiCad source to diff; not independently checkable this pass | — not verified |
+| 4 | Missing connector refdes added (silkscreen) | Board renders (below) show refdes silkscreen text at every connector row; can't confirm *which* were newly added without a prior render | ⚠️ plausible, not individually confirmed |
+| 6, 7, 9, 10 | U6 pins 35/36/69/70 net changes | **Confirmed directly**: `tools/kicad-query/pcb_net.py IOB/IOB_v3.2.1.kicad_pcb --ref U6 --pad {35,36,69,70}` → pad 35=`ADC_B`, pad 36=`ADC_D`, pad 69=unconnected, pad 70=unconnected. Exact match to all four claims. | ✅ confirmed |
 | 8 | D8 added on sheet 4 | D8 exists in schematic (`dnp=no`, in BOM as SMBJ5.0CA); not confirmed it's specifically on the MCU_Power sheet | ⚠️ partially confirmed |
 | 11 | C142 → C19 | C19 present in BOM (100nF, 0603); C142 absent from both BOM exports | ✅ consistent |
 | **12** | **C32, D48, D51 now DNI/DNP** | **D48/D51: schematic `dnp=yes`, BOM shows `; DNI` + DNP flag — confirmed. C32: schematic `dnp=no`, BOM has no DNI/DNP marker, PCB footprint has no exclude attribute — NOT DNP.** | **🛑 mismatch — see below** |
@@ -56,6 +57,80 @@ wasn't, or the changelog overstates the change — needs the engineer to
 confirm intent before merge. Filled into the checklist copy as **NO** on
 both the schematic checklist (row 30, BOM-vs-changelog match) and the PCB
 checklist (row 36, PCB update documented in changelog).
+
+**Stronger confirmation from the full port audit below:** the `PWR` sheet
+of the schematic *visually draws C32 crossed out with a red "DNI" mark* —
+the designer's intent to make it DNP is right there in the drawing — but
+the symbol's `(dnp no)` property was never actually set to match. This
+isn't a case of the changelog being wrong; it's the schematic's own visual
+markup disagreeing with its own data field.
+
+## Full port audit (all 10 KiCad sheets vs. the original 2018 PADS design)
+
+At the user's request, given this is the *first* port of this board to
+KiCad: read all 9 pages of `X1_IO V3.0.1 20180224.pdf` (a Mentor PADS
+schematic print of this same board family, dated 2018-02-24, version
+3.0.1 — attached by the user, not part of the tracked changelog) and
+visually compared every one of the 10 real KiCad sheets against it
+(`IOB/fresh_reports/IOB_v3.2.1.pdf`, page by page).
+
+**Caveat on scope:** v3.0.1 (2018) is several revisions before v3.2.0, the
+actual baseline this PR changes — the changelog workbook only documents
+the v3.2.0→v3.2.1 delta. Differences between the 2018 PDF and today's
+schematic that aren't in that 12-item list could easily be legitimate
+design evolution over ~8 years and many untracked intermediate revisions,
+not migration errors. Findings below are flagged with that caveat where it
+applies, not asserted as definite bugs.
+
+**Overall result: this is a faithful, careful port.** Every sheet's
+topology and the overwhelming majority of reference designators match the
+2018 design exactly — power supply topology, the entire STM32F103ZET6 pin
+map, every one of the 22 `UI1`–`UI22` channel front-ends (optoisolator +
+comparator + op-amp buffer, same R/Q/D/U refdes on both sides), the
+PWM→AOUT analog output stage, the DI opto-input stage, and the SCR/DO
+triac output stage are all structurally identical, refdes-for-refdes, to
+the 2018 source. That's strong evidence the migration itself was done
+carefully.
+
+**Correction, re-verified 2026-08-18 at the user's request:** an earlier
+draft of this section claimed U6 pin 34 (`PA0`) went from `ADC_A` in 2018
+to unconnected now, and that the current design added a third analog mux
+not present in 2018. **Both claims were wrong**, caused by misreading a
+downsampled thumbnail of old page 2 — the `ADC_A`/`ADC_B`/`ADC_C` labels
+there actually align with pins **35/36/37**, not 34/35/36 (confirmed by
+re-rendering that page at 400dpi and cropping in). Pin 34 has **no**
+label in the 2018 schematic either — it's unconnected in both revisions,
+always has been, and isn't a port issue at all.
+
+Re-checked properly, against both PDF text extraction and the KiCad
+source directly: **the 2018 design already has three analog muxes**, not
+two — `U9`→`ADC_C`, `U28`→`ADC_A`, `U35`→`ADC_B` (I'd only spotted `U28`
+and `U35` on first pass and missed `U9` on an earlier page). The current
+design uses the exact same three refdes for the exact same role —
+`U9`→`ADC_C` (unchanged), `U28`→`ADC_B` (was `ADC_A`), `U35`→`ADC_D` (was
+`ADC_B`) — confirmed directly from `IOB V3.2.1_sheet7.kicad_sch` /
+`_sheet8.kicad_sch`. **This exactly, precisely matches changelog items 6
+and 7** ("U6.35 is connected to ADC_B (previously ADC_A)"; "U6.36 is
+connected to ADC_D (previously ADC_B)") — not just plausible, but a
+confirmed exact match down to which physical mux chip drives which pin.
+No open question here; retracting the earlier flag entirely.
+
+One thing still worth flagging, unrelated to the above and unaffected by
+this correction:
+
+- **U29/U33 (both buck converters in the power supply) are marked `HTC
+  MC34063AD` in the current BOM**; the 2018 schematic shows `NCP3063` in
+  the same two positions, same pinout/topology. Likely an ordinary
+  manufacturer/sourcing substitution for a pin-compatible part (MC34063
+  is a very common, multi-sourced buck controller), but it isn't
+  mentioned in the 12-item changelog either — flag for the engineer to
+  confirm it's an intentional BOM choice, not a stray part swap.
+
+One more, lower-confidence observation: **C8** (a second 330µF/50V bulk
+cap next to C32) is `dnp=yes` in the current schematic but was a normally
+populated part in the 2018 design. Same caveat as above — could easily
+predate v3.2.0 — noted for completeness, not treated as a finding on its
+own.
 
 ## ERC/DRC delta
 
@@ -86,6 +161,30 @@ errors/warnings, fully clean.
 `IOB_BOM.csv` (different export grouping, but) — 538/538 refdes match, 0
 value/footprint mismatches.
 
+## Board renders
+
+`tools/kicad-reports/generate_reports.sh` now also produces
+`IOB_v3.2.1_render_top.png` / `_render_bottom.png` (full-color, via
+`kicad-cli pcb render --preset follow_pcb_editor`) — copies saved
+alongside this report. These close the "visual, can't check" gap left in
+the first pass of this review:
+
+- ✅ ADF logo is present on the top silkscreen.
+- 🛑 **The text under the logo reads "IOB_V1.0" — stale.** This is
+  revision v3.2.1; the schematic and PCB title blocks both correctly say
+  `IOB_v3.2.1` / rev `3.2.1` (see checklist coverage below), but the
+  silkscreen graphic under the ADF logo was apparently never updated past
+  whatever the original V1.0 board said. Confirmed by cropping the render
+  4x — this is a real, currently-legible board-name/version marking, not
+  a rendering artifact. Every future revision will silkscreen-print
+  "V1.0" on the physical board unless this is fixed.
+
+Also generated: an interactive HTML BOM
+([`IOB_v3.2.1_ibom.html`](./IOB_v3.2.1_ibom.html), via
+`tools/interactive-bom`) — click any BOM row to highlight it on the
+rendered board, useful for the human reviewer spot-checking placement,
+orientation, or the C32 DNP question above without opening KiCad.
+
 ## Gerber visual diff (v3.2.1 vs. v3.2.0)
 
 `tools/gerber-diff/run.sh changelog/v3.2.1/gerber_v3.2.1_v.3.2.0`:
@@ -113,50 +212,67 @@ copper routing change is mechanically/electrically intentional** — this
 pass confirms *how much* changed and flags it as worth a look, not that
 every trace move is correct.
 
-## 🛑 Fabrication package is incomplete
+## ⚠️ `IOB/Gerber/` is out of sync with the actual export (corrected)
 
-Independent of the diff review: `IOB/Gerber/` — this repo's tracked,
-current-revision fabrication output (per `README.md`, what gets sent to the
-manufacturer for DFM) — is **missing copper layers entirely**:
+**Correction, re-verified 2026-08-18 at the user's request:** the first
+pass of this review flagged this as "board cannot be fabricated" — that
+was wrong. A complete, valid copper+paste export for v3.2.1 **does**
+exist: `changelog/v3.2.1/gerber_v3.2.1_v.3.2.0/TOP_new.pho` and
+`BOTTOM_new.pho` are real copper layers (69,628 draw + 2,295 flash
+commands in `TOP_new.pho` alone — comparable in magnitude to
+`tools/kicad-reports`' own fresh `F_Cu.gtl` export), and
+`Paste_top_new.pho`/`Paste_bottom_new.pho` are real paste layers too —
+all four exported via `gerbv` (same tool `tools/gerber-diff` uses)
+specifically to build this old/new comparison folder. The same is true on
+the old side (`TOP_old.pho`, `Paste_*_old.pho`), so both revisions' full
+copper+paste data have existed and been exportable throughout.
 
-- No `F_Cu`/`B_Cu` (top/bottom copper) — **a board cannot be fabricated
-  without these**
-- No `F_Paste`/`B_Paste` (paste mask)
-- No `Edge_Cuts` (board outline)
+So the design and the export pipeline are both fine — the design was
+never missing copper/paste. What's still true, and still worth fixing:
+`IOB/Gerber/` — this repo's tracked, current-revision fabrication output
+(per `README.md`, what's meant to get sent to the manufacturer for DFM) —
+is **missing copper (`F_Cu`/`B_Cu`), paste (`F_Paste`/`B_Paste`), and
+board-outline (`Edge_Cuts`) files**, even though a complete export
+clearly was produced elsewhere in this same PR (the diff folder above).
+Only silkscreen, soldermask, drill files, and drill maps are committed
+there (12 files, confirmed via `git ls-files IOB/Gerber/`; no `.gitignore`
+rule excludes copper/paste output).
 
-Only silkscreen, soldermask, drill files, and drill maps are present (12
-files total, all git-tracked as committed). This is not a gerber-diff
-artifact or a scope mismatch — `git ls-files IOB/Gerber/` confirms exactly
-these 12 files are what's tracked, and `.gitignore` has no rule that would
-be excluding copper/paste output. By contrast,
-`tools/kicad-reports/generate_reports.sh IOB`'s fresh output
-(`IOB/fresh_reports/Gerber/`) has the full standard KiCad layer set
-including `F_Cu.gtl`/`B_Cu.gbl`/paste/`Edge_Cuts.gm1`/fab/courtyard — so
-the tooling to produce a complete package works; the committed `IOB/Gerber/`
-just wasn't regenerated with it (or was hand-pruned) before commit.
+**Open question for the engineer/reviewer, not something I can resolve
+from the files alone:** is `IOB/Gerber/` supposed to hold the full
+fabrication set, or does this team's process intentionally keep it to a
+subset and generate/attach the full set (copper+paste+outline) separately
+at DFM time? If it's meant to be the complete set — as README.md's own
+description of the folder implies — it should be synced with the same
+export already done for the diff folder (or regenerated via
+`tools/kicad-reports/generate_reports.sh IOB --in-place`) before this is
+used as the actual fab package.
 
 ## Checklist coverage
 
 Filled Checker column on a copy:
 [`Internal Peer Checklist - X1_IOB_v3.2.1 (Claude).xlsx`](./Internal%20Peer%20Checklist%20-%20X1_IOB_v3.2.1%20%28Claude%29.xlsx)
-— 65 cells patched across both sheets. Verified as YES: naming/version bump,
+— 75 cells patched across both sheets. Verified as YES: naming/version bump,
 schematic + PCB title blocks, file naming, BOM cross-check, ERC/DRC
-regeneration + scope-matched comparison, schematic↔PCB sync, gerber overlay
-diff performed, required schematic-side files, silkscreen/soldermask/drill
-gerbers present. Verified as **NO**: BOM-vs-changelog match (C32 DNP
-mismatch), PCB-update-documented-in-changelog (same C32 issue), copper
-gerbers present, paste gerbers present.
+regeneration + scope-matched comparison, schematic↔PCB sync, addition/
+removal-vs-changelog (U6 pin nets, directly queried), all existing
+components placed / refdes-value-footprint vs. prior design (full 10-sheet
+audit against the 2018 PADS reference — see above), gerber overlay diff
+performed, required schematic-side files, silkscreen/soldermask/drill
+gerbers present, ADF logo present (confirmed via render). Verified as
+**NO**: BOM-vs-changelog match (C32 DNP mismatch), PCB-update-documented-
+in-changelog (same C32 issue), copper gerbers present, paste gerbers
+present, **board name/version below the ADF logo (stale "IOB_V1.0"
+silkscreen)**.
 
-**Left blank on purpose** (visual/physical judgement, or no prior-revision
-KiCad source to diff against): sheet naming vs. circuit function (root
-sheet is internally labeled "SL123010 V3.2.1" vs. board name "IOB" — may be
-an internal project code, not necessarily wrong, but not something to
-rubber-stamp), all existing components placed / refdes-value-footprint vs.
-*old schematic* (no prior KiCad file exists), individual net-level
-confirmation of changelog items 6/7/9/10 (U6 pin renames — only indirectly
-supported via clean sync reports, not individually traced), ADF logo
-displayed, board name/version below the logo, and "Archive Project"
-(a submission-process action, not a file-content check).
+**Left blank on purpose** (visual/physical judgement a render still can't
+settle): sheet naming vs. circuit function (root sheet is internally
+labeled "SL123010 V3.2.1" vs. board name "IOB" — may be an internal
+project code, not necessarily wrong, but not something to rubber-stamp),
+silkscreen legibility under real print/etch tolerances, connector
+*keying* (vs. just placement, which the render does show), mechanical
+fit, and "Archive Project" (a submission-process action, not a
+file-content check).
 
 This copy is a first-pass aid for the human Checker — it does **not**
 replace their sign-off on the real
@@ -167,14 +283,39 @@ replace their sign-off on the real
 🛑 **Should go back to the engineer before merging.**
 
 Two concrete, verified issues:
-1. **C32 DNP mismatch** — changelog claims it, files don't show it. Needs
-   engineer confirmation either way.
-2. **`IOB/Gerber/` has no copper, paste, or board-outline layers** — the
-   committed fabrication package cannot be sent to a manufacturer as-is.
+1. **C32 DNP mismatch** — changelog claims it, files don't show it (confirmed
+   both in the schematic/BOM and directly via `pcb_net.py` against the PCB).
+   Needs engineer confirmation either way.
+2. **Stale "IOB_V1.0" silkscreen under the ADF logo** — board name/version
+   marking on the physical board doesn't match this v3.2.1 revision.
+
+One process item, downgraded from the first pass after re-verification —
+not blocking merge, but should be resolved before `IOB/Gerber/` is used as
+the actual DFM fabrication package:
+3. **`IOB/Gerber/` is missing copper/paste/outline files that a complete
+   export elsewhere in this PR proves already exist** for v3.2.1 — see
+   "`IOB/Gerber/` is out of sync with the actual export" above. This was
+   originally reported as "board cannot be fabricated," which was wrong —
+   the design and export are fine, the tracked folder just wasn't synced
+   with them.
+
+One more from the full 10-sheet port audit against the 2018 PADS reference
+— worth a quick engineer confirmation, not a blocker on its own since it
+can't be pinned to *this* PR specifically (plausibly predates the v3.2.0
+baseline):
+4. **U29/U33 marked `HTC MC34063AD`**, where the 2018 schematic shows
+   `NCP3063` in the same positions — likely an ordinary sourcing
+   substitution (pin-compatible parts), but undocumented in the changelog.
 
 Everything else checked out clean: ERC/DRC show zero new violations at
 matching severity scope, schematic↔PCB sync is clean, BOM matches exactly,
-and the only SIGNIFICANT gerber-diff layers (top/bottom copper) are a known,
-already-documented characteristic of this exact version comparison —
-worth the human reviewer's visual confirmation per the README's manual
-review step, but not itself a red flag.
+the port audit (after correcting an initial misread of the 2018 PDF — see
+above) found changelog items 6 and 7 (U6 pins 35/36 net renames) to be an
+**exact match**, not just plausible — same physical mux chips (`U9`,
+`U28`, `U35`) drive the same pins in both revisions, only the mux output
+names changed, precisely as stated. The rest of the ~500+ components are
+structurally faithful to the 2018 reference, and the only SIGNIFICANT
+gerber-diff layers (top/bottom copper) are a known, already-documented
+characteristic of this exact version comparison — worth the human
+reviewer's visual confirmation per the README's manual review step, but
+not itself a red flag.

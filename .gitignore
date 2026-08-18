@@ -21,3 +21,5 @@ diff_output/
 # tools/kicad-reports' sandboxed output (regenerable scratch comparison
 # output, never itself committed — see tools/kicad-reports/README.md).
 **/fresh_reports/
+
+**/__pycache__/

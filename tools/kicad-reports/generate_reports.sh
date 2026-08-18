@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-# Regenerate ERC, DRC, gerbers, drill files, BOM, and schematic PDF
-# directly from a board's .kicad_sch/.kicad_pcb source, instead of
-# trusting whatever report/export files the PCB engineer included with
-# their change.
+# Regenerate ERC, DRC, gerbers, drill files, BOM, schematic PDF, and
+# top/bottom board renders directly from a board's .kicad_sch/.kicad_pcb
+# source, instead of trusting whatever report/export files the PCB
+# engineer included with their change.
 #
 # Runs kicad-cli (v10.0.4, matching this repo's toolchain) via Docker --
 # no local KiCad install required.
@@ -198,6 +198,25 @@ echo "==> Schematic PDF" >&2
 PDF_NAME="$(basename "$PCB_FILE" .kicad_pcb).pdf"
 run_cli sch export pdf "$SCH_NAME" --output "/deliverables/${PDF_NAME}"
 
+# Board renders (top/bottom, full color -- copper+silkscreen+soldermask+
+# component bodies) for the visual checks kicad-cli can't otherwise
+# automate: ADF logo present, board name/version silkscreen legible,
+# connector placement. --quality basic is a ~1s flat-lit render; the
+# board only looks right with --preset follow_pcb_editor (the plain
+# default preset, follow_plot_settings, renders bare copper only --
+# this project's plot settings hide soldermask/silkscreen/3D bodies).
+# Bump to --quality high (raytraced, ~15-40s) for a sharper image if
+# basic isn't clear enough for a specific check.
+echo "==> Board render, top" >&2
+TOP_RENDER_NAME="$(basename "$PCB_FILE" .kicad_pcb)_render_top.png"
+run_cli pcb render --side top --quality basic --background opaque \
+    --preset follow_pcb_editor --output "/deliverables/${TOP_RENDER_NAME}" "$PCB_NAME"
+
+echo "==> Board render, bottom" >&2
+BOTTOM_RENDER_NAME="$(basename "$PCB_FILE" .kicad_pcb)_render_bottom.png"
+run_cli pcb render --side bottom --quality basic --background opaque \
+    --preset follow_pcb_editor --output "/deliverables/${BOTTOM_RENDER_NAME}" "$PCB_NAME"
+
 echo >&2
 echo "Done. Freshly regenerated from source:" >&2
 echo "  ${DELIVERABLES_DIR}/ERC_report_errors_only.rpt" >&2
@@ -207,6 +226,8 @@ echo "  ${DRC_OUT_DIR}/DRC_report_full.rpt" >&2
 echo "  ${GERBER_DIR}/" >&2
 echo "  ${DELIVERABLES_DIR}/${BOM_NAME}" >&2
 echo "  ${DELIVERABLES_DIR}/${PDF_NAME}" >&2
+echo "  ${DELIVERABLES_DIR}/${TOP_RENDER_NAME}" >&2
+echo "  ${DELIVERABLES_DIR}/${BOTTOM_RENDER_NAME}" >&2
 echo >&2
 echo "When comparing against a submitted report, check ITS OWN 'Report" >&2
 echo "includes:' header line first -- kicad-cli's plain default (no" >&2

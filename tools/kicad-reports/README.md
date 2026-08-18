@@ -1,10 +1,10 @@
 # kicad-reports
 
-Regenerates ERC, DRC, gerbers, drill files, BOM, and schematic PDF
-directly from a board's `.kicad_sch`/`.kicad_pcb` source, instead of
-trusting whatever report/export files a PR includes. Runs `kicad-cli`
-(KiCad 10.0.4, matching this repo's toolchain) via Docker — no local
-KiCad install required.
+Regenerates ERC, DRC, gerbers, drill files, BOM, schematic PDF, and
+top/bottom board renders directly from a board's `.kicad_sch`/`.kicad_pcb`
+source, instead of trusting whatever report/export files a PR includes.
+Runs `kicad-cli` (KiCad 10.0.4, matching this repo's toolchain) via
+Docker — no local KiCad install required.
 
 This exists because a submitted `ERC_report.rpt` / `DRC_report.rpt` /
 `Gerber/` folder is just files — nothing guarantees they were actually
@@ -38,7 +38,8 @@ in this script.
 tools/kicad-reports/generate_reports.sh IOB
 # -> IOB/fresh_reports/{ERC_report_errors_only.rpt, ERC_report_full.rpt,
 #                        DRC_report_errors_only.rpt, DRC_report_full.rpt,
-#                        Gerber/, IOB_v3.2.1_BOM.csv, IOB_v3.2.1.pdf}
+#                        Gerber/, IOB_v3.2.1_BOM.csv, IOB_v3.2.1.pdf,
+#                        IOB_v3.2.1_render_top.png, IOB_v3.2.1_render_bottom.png}
 
 diff IOB/fresh_reports/DRC_report_errors_only.rpt IOB/DRC_report.rpt
 ```
@@ -72,6 +73,8 @@ once you're sure.
 | Drill | `pcb export drill --generate-map` | Excellon + drill map |
 | BOM | `sch export bom` | Default field set |
 | PDF | `sch export pdf` | Full schematic print |
+| Render (top) | `pcb render --side top --quality basic --preset follow_pcb_editor` | Flat-lit color render (~1s); for the visual checks kicad-cli can't otherwise automate — ADF logo present, board name/version silkscreen legible, connector placement. `--preset follow_pcb_editor` matters: the plain default preset (`follow_plot_settings`) renders bare copper only on this project |
+| Render (bottom) | `pcb render --side bottom --quality basic --preset follow_pcb_editor` | Same as above |
 
 All coordinates in the ERC/DRC reports are in **mm** (`--units mm`),
 not mils — this repo's originally submitted `ERC_report.rpt` used mils
