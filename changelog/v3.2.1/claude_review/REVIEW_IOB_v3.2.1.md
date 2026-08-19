@@ -118,13 +118,56 @@ No open question here; retracting the earlier flag entirely.
 One thing still worth flagging, unrelated to the above and unaffected by
 this correction:
 
-- **U29/U33 (both buck converters in the power supply) are marked `HTC
-  MC34063AD` in the current BOM**; the 2018 schematic shows `NCP3063` in
-  the same two positions, same pinout/topology. Likely an ordinary
-  manufacturer/sourcing substitution for a pin-compatible part (MC34063
-  is a very common, multi-sourced buck controller), but it isn't
-  mentioned in the 12-item changelog either — flag for the engineer to
-  confirm it's an intentional BOM choice, not a stray part swap.
+- ~~U29/U33 marked `HTC MC34063AD` vs. 2018's `NCP3063`~~ — **resolved
+  below**, using a much better source than the 2018 PDF.
+
+### Direct v3.2.0 BOM comparison (added by the user 2026-08-19)
+
+The user provided the actual v3.2.0 production BOM
+(`changelog/v3.2.1/IOB_BOM_v3.2.0_2022.xlsx`, dated 2022) — the real
+immediate predecessor this PR changes, not an 8-year-old approximation.
+Parsed it (refdes → package/description per row) and diffed against the
+freshly-regenerated v3.2.1 BOM by refdes:
+
+- **U29/U33 are `HTC MC34063AD` in the v3.2.0 BOM too** (row 9: `U29 U33
+  | HTC MC34063AD | SO8NB | 2`) — this predates v3.2.0, confirmed, not
+  something introduced by this PR or even the KiCad migration. The 2018
+  PDF showing `NCP3063` just means that part got changed at some earlier,
+  untracked revision between 2018 and 2022. **Retracting this flag
+  entirely** — nothing to ask the engineer about.
+- **535 populated (non-DNP) refdes in the v3.2.0 BOM exactly match 535
+  non-DNP refdes in the fresh v3.2.1 BOM** — zero components silently
+  added or removed. The only 3 refdes present in the v3.2.1 BOM but
+  absent from v3.2.0's is `C8`, `D48`, `D51` — precisely the three parts
+  marked DNP in the current design, fully explained by the v3.2.0 BOM
+  being a populated-parts/assembly BOM that naturally excludes DNP items
+  (it has a `Qty/Brd` column). Not a real discrepancy.
+- **C32 was a normal, fully-populated part in the v3.2.0 BOM too** (row
+  35: `C32 | 330uF/50V | CAP5.0 | Qty 1`, no DNI marker) — a **fourth**
+  independent confirmation of the C32 finding above (schematic visual
+  DNI mark, `dnp=no` property, no PCB footprint exclude attr, and now the
+  real v3.2.0 BOM too). C32 has never actually been made DNP at any point
+  this repo has a record of, despite the changelog and the schematic's
+  own drawing both saying it should be.
+- **Item 11 (`C142` → `C19`) is now fully explained, not just
+  plausible:** `C19` is already present in the v3.2.0 BOM in the
+  100nF/0603 group — it was always the correct part. `C142` doesn't
+  appear anywhere in the v3.2.0 BOM at all, meaning it was never a real,
+  released refdes — almost certainly a transient auto-renumbering
+  artifact from the Mentor Pads → KiCad schematic import that got caught
+  and corrected back to `C19` before this PR, exactly as the changelog
+  entry describes ("C142 replaced with C19 to match with PCB").
+- Two trivial, cosmetic-only footprint-name differences, neither a
+  concern: `L1`/`L2` footprint changed from `IND\HQR` to `IND_HQR`
+  (backslash → underscore, likely just a KiCad-safe-character
+  normalization) and `R94` from `0805` to `0805R` (a footprint-variant
+  suffix, plausibly intentional for this part's 1Ω/current-sense role,
+  not flagged as it doesn't affect fit).
+
+This is strong, close-to-baseline confirmation that the schematic port
+itself introduced no unexplained component changes at all — every
+difference either matches a stated changelog item exactly or is fully
+accounted for by DNP-list scope.
 
 One more, lower-confidence observation: **C8** (a second 330µF/50V bulk
 cap next to C32) is `dnp=yes` in the current schematic but was a normally
@@ -283,8 +326,11 @@ replace their sign-off on the real
 🛑 **Should go back to the engineer before merging.**
 
 Two concrete, verified issues:
-1. **C32 DNP mismatch** — changelog claims it, files don't show it (confirmed
-   both in the schematic/BOM and directly via `pcb_net.py` against the PCB).
+1. **C32 DNP mismatch** — changelog claims it, files don't show it. **Four
+   independent sources confirm this now**: the schematic visually draws
+   C32 crossed out with a "DNI" mark, its `dnp` property is `no`, the PCB
+   footprint has no exclude attribute, and the actual v3.2.0 production
+   BOM shows C32 as a normal populated part (not DNP back then either).
    Needs engineer confirmation either way.
 2. **Stale "IOB_V1.0" silkscreen under the ADF logo** — board name/version
    marking on the physical board doesn't match this v3.2.1 revision.
@@ -299,15 +345,10 @@ the actual DFM fabrication package:
    the design and export are fine, the tracked folder just wasn't synced
    with them.
 
-One more from the full 10-sheet port audit against the 2018 PADS reference
-— worth a quick engineer confirmation, not a blocker on its own since it
-can't be pinned to *this* PR specifically (plausibly predates the v3.2.0
-baseline):
-4. **U29/U33 marked `HTC MC34063AD`**, where the 2018 schematic shows
-   `NCP3063` in the same positions — likely an ordinary sourcing
-   substitution (pin-compatible parts), but undocumented in the changelog.
-
-Everything else checked out clean: ERC/DRC show zero new violations at
+Everything else checked out clean, including the U29/U33 part-marking
+question from the first draft — resolved (not just plausible) once the
+actual v3.2.0 BOM was available: `HTC MC34063AD` was already there in
+2022, predates this PR entirely. ERC/DRC show zero new violations at
 matching severity scope, schematic↔PCB sync is clean, BOM matches exactly,
 the port audit (after correcting an initial misread of the 2018 PDF — see
 above) found changelog items 6 and 7 (U6 pins 35/36 net renames) to be an
