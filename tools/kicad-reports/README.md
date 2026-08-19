@@ -1,10 +1,10 @@
 # kicad-reports
 
-Regenerates ERC, DRC, gerbers, drill files, BOM, and schematic PDF
-directly from a board's `.kicad_sch`/`.kicad_pcb` source, instead of
-trusting whatever report/export files a PR includes. Runs `kicad-cli`
-(KiCad 10.0.4, matching this repo's toolchain) via Docker — no local
-KiCad install required.
+Regenerates ERC, DRC, gerbers, drill files, BOM, schematic PDF, and
+top/bottom board renders directly from a board's `.kicad_sch`/`.kicad_pcb`
+source, instead of trusting whatever report/export files a PR includes.
+Runs `kicad-cli` (KiCad 10.0.4, matching this repo's toolchain) via
+Docker — no local KiCad install required.
 
 This exists because a submitted `ERC_report.rpt` / `DRC_report.rpt` /
 `Gerber/` folder is just files — nothing guarantees they were actually
@@ -38,7 +38,8 @@ in this script.
 tools/kicad-reports/generate_reports.sh IOB
 # -> IOB/fresh_reports/{ERC_report_errors_only.rpt, ERC_report_full.rpt,
 #                        DRC_report_errors_only.rpt, DRC_report_full.rpt,
-#                        Gerber/, IOB_v3.2.1_BOM.csv, IOB_v3.2.1.pdf}
+#                        Gerber/, IOB_v3.2.1_BOM.csv, IOB_v3.2.1.pdf,
+#                        IOB_v3.2.1_render_top.png, IOB_v3.2.1_render_bottom.png}
 
 diff IOB/fresh_reports/DRC_report_errors_only.rpt IOB/DRC_report.rpt
 ```
@@ -70,8 +71,10 @@ once you're sure.
 | DRC (full) | `pcb drc --severity-all --schematic-parity --units mm` | errors + warnings + exclusions |
 | Gerbers | `pcb export gerbers` | All layers, kicad-cli's default naming (`<board>-<Layer>.<ext>`) |
 | Drill | `pcb export drill --generate-map` | Excellon + drill map |
-| BOM | `sch export bom` | Default field set |
+| BOM | `sch export bom` | Grouped by Value/DNP/Exclude-from-board/Footprint, matching `IOB/Deliverables/IOB_BOM.csv`'s format exactly (see below) — **not** kicad-cli's plain default, which exports one row per component with no grouping at all |
 | PDF | `sch export pdf` | Full schematic print |
+| Render (top) | `pcb render --side top --quality basic --preset follow_pcb_editor` | Flat-lit color render (~1s); for the visual checks kicad-cli can't otherwise automate — ADF logo present, board name/version silkscreen legible, connector placement. `--preset follow_pcb_editor` matters: the plain default preset (`follow_plot_settings`) renders bare copper only on this project |
+| Render (bottom) | `pcb render --side bottom --quality basic --preset follow_pcb_editor` | Same as above |
 
 All coordinates in the ERC/DRC reports are in **mm** (`--units mm`),
 not mils — this repo's originally submitted `ERC_report.rpt` used mils
@@ -85,6 +88,33 @@ committed `IOB/Gerber/` (`IOB_v3.2.1-B_Silkscreen.gbr`, etc.) — they're
 the same layers, just named by KiCad's own convention rather than the
 fab house's. Use [tools/gerber-diff](../gerber-diff) to compare fresh
 vs. committed gerbers visually regardless of naming differences.
+
+### Why the BOM export isn't kicad-cli's plain default
+
+`sch export bom` with no extra flags produces one row per component —
+538 rows for IOB, useless to diff against the committed
+`IOB/Deliverables/IOB_BOM.csv`, which groups identical parts onto one row
+(`"C11 ,C12","2","20pF",...`). This tool instead passes
+`--fields`/`--labels`/`--group-by`/`--sort-field`/`--ref-delimiter`/
+`--ref-range-delimiter` explicitly to reproduce that grouped format.
+
+These aren't guessed — they're read straight out of
+`<board>.kicad_pro`'s own `schematic.bom_settings` /
+`schematic.bom_fmt_settings` blocks, i.e. whatever was last configured in
+KiCad's own **Tools → Generate BOM** dialog and saved with the project.
+Verified byte-for-byte against the committed `IOB_BOM.csv`, with one
+known, cosmetic-only imperfection: `--sort-asc` crashes kicad-cli 10.0.4
+(`Unhandled exception ... bad any_cast`), so this tool doesn't pass it
+(ascending is the tool's own default anyway), and sorting by `Value`
+alone doesn't always tie-break two rows whose values share a prefix quite
+the way the original export did (e.g. `"330uF ; 50V"` vs.
+`"330uF ; 50V ; DNI"` can land one row out of order). Never affects which
+components get grouped together or their quantities — only, occasionally,
+which of two adjacent rows comes first.
+
+If this project's BOM export settings are ever reconfigured via that
+KiCad dialog and re-saved, re-derive these flags from the `.kicad_pro`
+rather than assuming the ones here still match.
 
 ### Two severity scopes, and why
 

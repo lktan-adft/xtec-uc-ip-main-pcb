@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-# Regenerate ERC, DRC, gerbers, drill files, BOM, and schematic PDF
-# directly from a board's .kicad_sch/.kicad_pcb source, instead of
-# trusting whatever report/export files the PCB engineer included with
-# their change.
+# Regenerate ERC, DRC, gerbers, drill files, BOM, schematic PDF, and
+# top/bottom board renders directly from a board's .kicad_sch/.kicad_pcb
+# source, instead of trusting whatever report/export files the PCB
+# engineer included with their change.
 #
 # Runs kicad-cli (v10.0.4, matching this repo's toolchain) via Docker --
 # no local KiCad install required.
@@ -192,11 +192,57 @@ run_cli pcb export drill "$PCB_NAME" --output "/gerber/" --generate-map
 
 echo "==> BOM" >&2
 BOM_NAME="$(basename "$PCB_FILE" .kicad_pcb)_BOM.csv"
-run_cli sch export bom "$SCH_NAME" --output "/deliverables/${BOM_NAME}"
+# kicad-cli's plain default (no --fields/--group-by/etc) exports one row
+# per component, not grouped by value+footprint like this repo's
+# committed IOB/Deliverables/*_BOM.csv -- making every fresh export a
+# useless diff against the committed one even when nothing changed.
+#
+# The flags below reproduce the committed format exactly (verified
+# byte-for-byte against IOB/Deliverables/IOB_BOM.csv, aside from one
+# single-row ordering quirk noted below) -- they're not guessed, they're
+# read straight out of this project's own stored BOM export settings in
+# <board>.kicad_pro (schematic.bom_settings / bom_fmt_settings), i.e.
+# whatever was last configured in KiCad's own Tools > Generate BOM
+# dialog. If that dialog's settings are ever changed and re-saved, these
+# flags should be re-derived from the .kicad_pro rather than assumed.
+#
+# Known imperfection: kicad-cli's --sort-asc flag crashes
+# ("bad any_cast") on this KiCad 10.0.4 build, so ascending order isn't
+# passed explicitly (it's the tool's own default already). Sorting by
+# Value alone also doesn't tie-break identical-prefix values quite the
+# same way the original export did (e.g. "330uF ; 50V" vs
+# "330uF ; 50V ; DNI" can land one row out of order) -- cosmetic only,
+# never affects which components are grouped or their quantities.
+run_cli sch export bom "$SCH_NAME" --output "/deliverables/${BOM_NAME}" \
+    --fields "Reference,QUANTITY,Value,DNP,EXCLUDE_FROM_BOARD,Footprint" \
+    --labels "Reference,Qty,Value,DNP,Exclude from Board,Footprint" \
+    --group-by "Value,DNP,EXCLUDE_FROM_BOARD,Footprint" \
+    --sort-field "Value" \
+    --ref-delimiter " ," \
+    --ref-range-delimiter ""
 
 echo "==> Schematic PDF" >&2
 PDF_NAME="$(basename "$PCB_FILE" .kicad_pcb).pdf"
 run_cli sch export pdf "$SCH_NAME" --output "/deliverables/${PDF_NAME}"
+
+# Board renders (top/bottom, full color -- copper+silkscreen+soldermask+
+# component bodies) for the visual checks kicad-cli can't otherwise
+# automate: ADF logo present, board name/version silkscreen legible,
+# connector placement. --quality basic is a ~1s flat-lit render; the
+# board only looks right with --preset follow_pcb_editor (the plain
+# default preset, follow_plot_settings, renders bare copper only --
+# this project's plot settings hide soldermask/silkscreen/3D bodies).
+# Bump to --quality high (raytraced, ~15-40s) for a sharper image if
+# basic isn't clear enough for a specific check.
+echo "==> Board render, top" >&2
+TOP_RENDER_NAME="$(basename "$PCB_FILE" .kicad_pcb)_render_top.png"
+run_cli pcb render --side top --quality basic --background opaque \
+    --preset follow_pcb_editor --output "/deliverables/${TOP_RENDER_NAME}" "$PCB_NAME"
+
+echo "==> Board render, bottom" >&2
+BOTTOM_RENDER_NAME="$(basename "$PCB_FILE" .kicad_pcb)_render_bottom.png"
+run_cli pcb render --side bottom --quality basic --background opaque \
+    --preset follow_pcb_editor --output "/deliverables/${BOTTOM_RENDER_NAME}" "$PCB_NAME"
 
 echo >&2
 echo "Done. Freshly regenerated from source:" >&2
@@ -207,6 +253,8 @@ echo "  ${DRC_OUT_DIR}/DRC_report_full.rpt" >&2
 echo "  ${GERBER_DIR}/" >&2
 echo "  ${DELIVERABLES_DIR}/${BOM_NAME}" >&2
 echo "  ${DELIVERABLES_DIR}/${PDF_NAME}" >&2
+echo "  ${DELIVERABLES_DIR}/${TOP_RENDER_NAME}" >&2
+echo "  ${DELIVERABLES_DIR}/${BOTTOM_RENDER_NAME}" >&2
 echo >&2
 echo "When comparing against a submitted report, check ITS OWN 'Report" >&2
 echo "includes:' header line first -- kicad-cli's plain default (no" >&2
