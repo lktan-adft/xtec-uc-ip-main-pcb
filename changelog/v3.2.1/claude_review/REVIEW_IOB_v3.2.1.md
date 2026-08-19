@@ -48,22 +48,40 @@ line-level source diff.
 | 6, 7, 9, 10 | U6 pins 35/36/69/70 net changes | **Confirmed directly**: `tools/kicad-query/pcb_net.py IOB/IOB_v3.2.1.kicad_pcb --ref U6 --pad {35,36,69,70}` → pad 35=`ADC_B`, pad 36=`ADC_D`, pad 69=unconnected, pad 70=unconnected. Exact match to all four claims. | ✅ confirmed |
 | 8 | D8 added on sheet 4 | D8 exists in schematic (`dnp=no`, in BOM as SMBJ5.0CA); not confirmed it's specifically on the MCU_Power sheet | ⚠️ partially confirmed |
 | 11 | C142 → C19 | C19 present in BOM (100nF, 0603); C142 absent from both BOM exports | ✅ consistent |
-| **12** | **C32, D48, D51 now DNI/DNP** | **D48/D51: schematic `dnp=yes`, BOM shows `; DNI` + DNP flag — confirmed. C32: schematic `dnp=no`, BOM has no DNI/DNP marker, PCB footprint has no exclude attribute — NOT DNP.** | **🛑 mismatch — see below** |
+| **12** | **C32, D48, D51 now DNI/DNP** | **D48/D51: confirmed DNP. C32: not DNP anywhere — but see correction below, this is very likely a changelog typo (means `C8`), not a real mismatch.** | **⚠️ likely changelog typo — see below** |
 
-**Finding: C32 is not actually marked DNI/DNP anywhere (schematic symbol,
-BOM export, or PCB footprint), contradicting changelog item 12.** D48 and
-D51 are correctly marked. Either C32 should also have been set DNP and
-wasn't, or the changelog overstates the change — needs the engineer to
-confirm intent before merge. Filled into the checklist copy as **NO** on
-both the schematic checklist (row 30, BOM-vs-changelog match) and the PCB
-checklist (row 36, PCB update documented in changelog).
+**Correction, re-verified 2026-08-19 at the user's challenge — this
+finding was substantially wrong in earlier drafts.** Two prior drafts of
+this review claimed the schematic *visually draws C32 crossed out* with a
+red "DNI" mark while its `dnp` property stayed `no` — asserted as
+"the schematic's own visual markup disagreeing with its own data field."
+**That visual attribution was wrong.** Re-rendered the `PWR` sheet at
+300dpi and cropped precisely on both components' exact schematic
+coordinates (`C32` at `82.55,66.04`; `C8` at `88.9,66.04` — 6.35mm apart,
+easy to misread in a downsampled view): **the red X and "; DNI" marking
+belongs to `C8`, not `C32`.** `C32` is drawn as a completely normal,
+populated component — dark maroon, no cross, value `330uF ; 50V` with no
+DNI suffix. `C8` is the one KiCad natively greys out and crosses through
+(KiCad auto-draws that mark from the `dnp` property; it isn't a manual
+annotation — which also means the *original* claim that "intent was drawn
+but the property wasn't set" couldn't have been right in the first place).
 
-**Stronger confirmation from the full port audit below:** the `PWR` sheet
-of the schematic *visually draws C32 crossed out with a red "DNI" mark* —
-the designer's intent to make it DNP is right there in the drawing — but
-the symbol's `(dnp no)` property was never actually set to match. This
-isn't a case of the changelog being wrong; it's the schematic's own visual
-markup disagreeing with its own data field.
+So: **there is no technical inconsistency involving C32 at all.** Every
+source — schematic symbol (`dnp=no`), PCB footprint, current BOM, *and*
+the real v3.2.0 BOM (C32 populated there too) — agrees C32 has always
+been a normal populated part. What changelog item 12 actually describes
+is real for two of its three named parts (`D48`, `D51` are genuinely
+DNP), but **`C32` and `C8` are immediately adjacent, same value
+(330µF/50V), same footprint (`CAP5.0`), and easy to conflate** — the far
+more likely explanation is a typo in the changelog text itself
+(`C32` written where `C8` was meant), not a missed implementation step.
+This is worth flagging to the engineer as a **documentation correction**,
+not a PCB defect — nothing on the board or in the schematic needs to
+change; the changelog wording does. Downgraded from 🛑 to ⚠️ and removed
+from the blocking-issues list in the verdict below. The checklist copy's
+**NO** on schematic row 30 / PCB row 36 is kept (the changelog's literal
+text still doesn't match what the design shows), but the remark now
+explains why.
 
 ## Full port audit (all 10 KiCad sheets vs. the original 2018 PADS design)
 
@@ -143,12 +161,12 @@ freshly-regenerated v3.2.1 BOM by refdes:
   being a populated-parts/assembly BOM that naturally excludes DNP items
   (it has a `Qty/Brd` column). Not a real discrepancy.
 - **C32 was a normal, fully-populated part in the v3.2.0 BOM too** (row
-  35: `C32 | 330uF/50V | CAP5.0 | Qty 1`, no DNI marker) — a **fourth**
-  independent confirmation of the C32 finding above (schematic visual
-  DNI mark, `dnp=no` property, no PCB footprint exclude attr, and now the
-  real v3.2.0 BOM too). C32 has never actually been made DNP at any point
-  this repo has a record of, despite the changelog and the schematic's
-  own drawing both saying it should be.
+  35: `C32 | 330uF/50V | CAP5.0 | Qty 1`, no DNI marker), while **`C8`
+  (row absent, same as v3.2.1)** was already excluded — consistent with
+  the corrected finding above: `C32` has never been DNP at any point this
+  repo has a record of, and `C8` has been the actual DNP part since at
+  least v3.2.0. Reinforces that changelog item 12 most likely meant `C8`
+  where it says `C32`.
 - **Item 11 (`C142` → `C19`) is now fully explained, not just
   plausible:** `C19` is already present in the v3.2.0 BOM in the
   100nF/0603 group — it was always the correct part. `C142` doesn't
@@ -169,11 +187,23 @@ itself introduced no unexplained component changes at all — every
 difference either matches a stated changelog item exactly or is fully
 accounted for by DNP-list scope.
 
-One more, lower-confidence observation: **C8** (a second 330µF/50V bulk
-cap next to C32) is `dnp=yes` in the current schematic but was a normally
-populated part in the 2018 design. Same caveat as above — could easily
-predate v3.2.0 — noted for completeness, not treated as a finding on its
-own.
+**C8 (a second 330µF/50V bulk cap next to C32), re-verified 2026-08-19 at
+the user's challenge:** its absence from the v3.2.0 BOM initially read as
+ambiguous — could mean "already DNP" or "genuinely new to v3.2.1," since
+that BOM has no explicit DNP column, only a populated-parts list. Settled
+with harder evidence: cropped the old and new `silkscreen_top` gerber-diff
+renders at C8's exact PCB coordinates (`228.108, 69.403`) — **its
+footprint outline and reference text are present in the identical
+physical location in both the v3.2.0 and v3.2.1 silkscreen** (the old
+render's text is mirror-flipped, an export-orientation quirk of that
+`.pho` file, not a placement difference). C8's footprint has existed
+since at least v3.2.0 (2018 PDF too) — it was already DNP by v3.2.0, so
+its status didn't change *in this specific PR*. Combined with the
+correction above (the visual DNI mark belongs to C8, not C32), this is
+consistent with changelog item 12 referring to `C8` all along — just
+mislabeled `C32` in the text — restated there as a general "these three
+are DNP" note rather than describing something newly changed by this
+revision specifically.
 
 ## ERC/DRC delta
 
@@ -303,8 +333,9 @@ components placed / refdes-value-footprint vs. prior design (full 10-sheet
 audit against the 2018 PADS reference — see above), gerber overlay diff
 performed, required schematic-side files, silkscreen/soldermask/drill
 gerbers present, ADF logo present (confirmed via render). Verified as
-**NO**: BOM-vs-changelog match (C32 DNP mismatch), PCB-update-documented-
-in-changelog (same C32 issue), copper gerbers present, paste gerbers
+**NO**: BOM-vs-changelog match (changelog names C32, but C8 is the actual
+DNP part — likely a changelog typo, not a PCB defect), PCB-update-
+documented-in-changelog (same item), copper gerbers present, paste gerbers
 present, **board name/version below the ADF logo (stale "IOB_V1.0"
 silkscreen)**.
 
@@ -323,27 +354,27 @@ replace their sign-off on the real
 
 ## Verdict
 
-🛑 **Should go back to the engineer before merging.**
+🛑 **Should go back to the engineer before merging** — but for a smaller
+reason than earlier drafts of this review claimed. The C32 "DNP mismatch"
+was substantially wrong (see the correction above) and is no longer a
+blocking issue; only one concrete blocker remains:
 
-Two concrete, verified issues:
-1. **C32 DNP mismatch** — changelog claims it, files don't show it. **Four
-   independent sources confirm this now**: the schematic visually draws
-   C32 crossed out with a "DNI" mark, its `dnp` property is `no`, the PCB
-   footprint has no exclude attribute, and the actual v3.2.0 production
-   BOM shows C32 as a normal populated part (not DNP back then either).
-   Needs engineer confirmation either way.
-2. **Stale "IOB_V1.0" silkscreen under the ADF logo** — board name/version
+1. **Stale "IOB_V1.0" silkscreen under the ADF logo** — board name/version
    marking on the physical board doesn't match this v3.2.1 revision.
 
-One process item, downgraded from the first pass after re-verification —
-not blocking merge, but should be resolved before `IOB/Gerber/` is used as
-the actual DFM fabrication package:
-3. **`IOB/Gerber/` is missing copper/paste/outline files that a complete
+Two non-blocking items, worth fixing/confirming but not reasons to send
+this back on their own:
+
+2. **`IOB/Gerber/` is missing copper/paste/outline files that a complete
    export elsewhere in this PR proves already exist** for v3.2.1 — see
-   "`IOB/Gerber/` is out of sync with the actual export" above. This was
-   originally reported as "board cannot be fabricated," which was wrong —
-   the design and export are fine, the tracked folder just wasn't synced
-   with them.
+   "`IOB/Gerber/` is out of sync with the actual export" above. Should be
+   resolved before that folder is used as the actual DFM package, but the
+   design and export are fine — nothing to send back to the engineer for.
+3. **Changelog item 12 almost certainly names the wrong refdes** — says
+   `C32`, very likely means `C8` (see the correction above: adjacent part,
+   same value/footprint, and `C8` — not `C32` — is the one actually drawn
+   DNP in the schematic and absent from both the v3.2.0 and v3.2.1
+   populated-parts view). A documentation fix, not a PCB change.
 
 Everything else checked out clean, including the U29/U33 part-marking
 question from the first draft — resolved (not just plausible) once the
