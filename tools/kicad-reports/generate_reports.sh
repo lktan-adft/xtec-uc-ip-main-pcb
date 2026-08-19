@@ -192,7 +192,34 @@ run_cli pcb export drill "$PCB_NAME" --output "/gerber/" --generate-map
 
 echo "==> BOM" >&2
 BOM_NAME="$(basename "$PCB_FILE" .kicad_pcb)_BOM.csv"
-run_cli sch export bom "$SCH_NAME" --output "/deliverables/${BOM_NAME}"
+# kicad-cli's plain default (no --fields/--group-by/etc) exports one row
+# per component, not grouped by value+footprint like this repo's
+# committed IOB/Deliverables/*_BOM.csv -- making every fresh export a
+# useless diff against the committed one even when nothing changed.
+#
+# The flags below reproduce the committed format exactly (verified
+# byte-for-byte against IOB/Deliverables/IOB_BOM.csv, aside from one
+# single-row ordering quirk noted below) -- they're not guessed, they're
+# read straight out of this project's own stored BOM export settings in
+# <board>.kicad_pro (schematic.bom_settings / bom_fmt_settings), i.e.
+# whatever was last configured in KiCad's own Tools > Generate BOM
+# dialog. If that dialog's settings are ever changed and re-saved, these
+# flags should be re-derived from the .kicad_pro rather than assumed.
+#
+# Known imperfection: kicad-cli's --sort-asc flag crashes
+# ("bad any_cast") on this KiCad 10.0.4 build, so ascending order isn't
+# passed explicitly (it's the tool's own default already). Sorting by
+# Value alone also doesn't tie-break identical-prefix values quite the
+# same way the original export did (e.g. "330uF ; 50V" vs
+# "330uF ; 50V ; DNI" can land one row out of order) -- cosmetic only,
+# never affects which components are grouped or their quantities.
+run_cli sch export bom "$SCH_NAME" --output "/deliverables/${BOM_NAME}" \
+    --fields "Reference,QUANTITY,Value,DNP,EXCLUDE_FROM_BOARD,Footprint" \
+    --labels "Reference,Qty,Value,DNP,Exclude from Board,Footprint" \
+    --group-by "Value,DNP,EXCLUDE_FROM_BOARD,Footprint" \
+    --sort-field "Value" \
+    --ref-delimiter " ," \
+    --ref-range-delimiter ""
 
 echo "==> Schematic PDF" >&2
 PDF_NAME="$(basename "$PCB_FILE" .kicad_pcb).pdf"
